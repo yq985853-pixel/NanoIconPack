@@ -17,6 +17,8 @@
 package com.by_syk.lib.nanoiconpack.dialog;
 
 import android.app.Dialog;
+import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
@@ -26,11 +28,17 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.by_syk.lib.nanoiconpack.R;
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.EncodeHintType;
+import com.google.zxing.MultiFormatWriter;
+import com.google.zxing.common.BitMatrix;
 
-import net.glxn.qrgen.android.QRCode;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by By_syk on 2017-02-04.
+ * Modified to use zxing directly.
  */
 
 public class QrcodeDialog extends DialogFragment {
@@ -51,12 +59,48 @@ public class QrcodeDialog extends DialogFragment {
             }
             if (!TextUtils.isEmpty(qrcodeUrl)) {
                 int qrcodeSize = getResources().getDimensionPixelSize(R.dimen.qrcode_size);
-                QRCode qrCode = QRCode.from(qrcodeUrl).withSize(qrcodeSize, qrcodeSize);
-                ((ImageView) viewGroup.findViewById(R.id.iv_qrcode)).setImageBitmap(qrCode.bitmap());
+                Bitmap bitmap = generateQrCode(qrcodeUrl, qrcodeSize);
+                if (bitmap != null) {
+                    ((ImageView) viewGroup.findViewById(R.id.iv_qrcode)).setImageBitmap(bitmap);
+                }
             }
         }
 
         return builder.create();
+    }
+
+    /**
+     * 用 zxing 生成二维码 Bitmap
+     */
+    private Bitmap generateQrCode(String content, int size) {
+        if (TextUtils.isEmpty(content) || size <= 0) {
+            return null;
+        }
+        try {
+            Map<EncodeHintType, Object> hints = new HashMap<>();
+            hints.put(EncodeHintType.CHARACTER_SET, "UTF-8");
+            hints.put(EncodeHintType.MARGIN, 1);
+
+            BitMatrix matrix = new MultiFormatWriter().encode(
+                    content, BarcodeFormat.QR_CODE, size, size, hints);
+
+            int width = matrix.getWidth();
+            int height = matrix.getHeight();
+            int[] pixels = new int[width * height];
+            for (int y = 0; y < height; y++) {
+                int offset = y * width;
+                for (int x = 0; x < width; x++) {
+                    pixels[offset + x] = matrix.get(x, y) ? Color.BLACK : Color.WHITE;
+                }
+            }
+
+            Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+            bitmap.setPixels(pixels, 0, width, 0, 0, width, height);
+            return bitmap;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     public static QrcodeDialog newInstance(String title, String qrcodeUrl) {
