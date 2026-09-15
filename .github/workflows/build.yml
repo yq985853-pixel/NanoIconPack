@@ -13,25 +13,40 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up JDK 8
+      # 第 1 阶段：用 JDK 17 装 Android SDK（新版 sdkmanager 必须 JDK 17+）
+      - name: Set up JDK 17 for SDK setup
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          cmdline-tools-version: '12.0'
+
+      - name: Install SDK components
+        run: |
+          sdkmanager "platforms;android-26" "build-tools;26.0.3" "platform-tools"
+          yes | sdkmanager --licenses || true
+
+      # 第 2 阶段：切回 JDK 8，老 Gradle 4.1 + AGP 3.0.1 只能用 JDK 8
+      - name: Set up JDK 8 for Gradle build
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '8'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Install required SDK components
-        run: |
-          sdkmanager "platforms;android-26" "build-tools;26.0.3" "platform-tools"
-          yes | sdkmanager --licenses || true
-
-      - name: Setup Gradle 4.1
+      - name: Install Gradle 4.1
         run: |
           curl -sL https://services.gradle.org/distributions/gradle-4.1-bin.zip -o /tmp/gradle.zip
           unzip -q /tmp/gradle.zip -d /opt
           echo "/opt/gradle-4.1/bin" >> $GITHUB_PATH
+
+      - name: Show versions
+        run: |
+          java -version
+          gradle --version
 
       - name: Build debug APK
         run: gradle assembleDebug --stacktrace
