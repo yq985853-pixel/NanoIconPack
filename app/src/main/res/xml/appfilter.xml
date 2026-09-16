@@ -1,174 +1,1098 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright 2017 By_syk
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<!-- For Nova, Apex, ADW, Smart, Action 3 -->
 <resources>
-
-    <!--<iconback
-        img1="iconback" />
-    <iconmask
-        img1="iconmask" />
-    <iconupon
-        img1="iconupon" />
-    <scale
-        factor="0.6" />-->
-
-    <!-- Just for Nova -->
-    <!--<item
-        component=":LAUNCHER_ACTION_APP_DRAWER"
-        drawable="drawer" />-->
-    <!--<item
-        component=":LAUNCHER_ACTION_APP_DRAWER_NIGHT"
-        drawable="drawer_night" />-->
-    <!--<item
-        component=":BROWSER"
-        drawable="browser" />-->
-    <!--<item
-        component=":CALCULATOR"
-        drawable="calculator" />-->
-    <item
-        component=":CALENDAR"
-        drawable="calendar" />
-    <!--<item
-        component=":CAMERA"
-        drawable="camera" />-->
-    <!--<item
-        component=":CLOCK"
-        drawable="clock" />-->
-    <!--<item
-        component=":CONTACTS"
-        drawable="contacts" />-->
-    <!--<item
-        component=":EMAIL"
-        drawable="email" />-->
-    <!--<item
-        component=":GALLERY"
-        drawable="gallery" />-->
-    <!--<item
-        component=":PHONE"
-        drawable="phone" />-->
-    <!--<item
-        component=":SMS"
-        drawable="sms" />-->
-
-    <!-- The whole 31 icons are required, or it doesn't work. -->
-    <!--<calendar
-        component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}"
-        prefix="calendar_d" />
-    <calendar
-        component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}"
-        prefix="calendar_d" />
-    <calendar
-        component="ComponentInfo{am.sunrise.android.calendar/am.sunrise.android.calendar.ui.HomeActivity}"
-        prefix="calendar_d" />
-    <calendar
-        component="ComponentInfo{com.android.calendar/com.meizu.flyme.calendar.AllInOneActivity}"
-        prefix="calendar_d" />
-    <calendar
-        component="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}"
-        prefix="calendar_d" />
-    <calendar
-        component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}"
-        prefix="calendar_d" />
-    <calendar
-        component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}"
-        prefix="calendar_d" />
-    <calendar
-        component="ComponentInfo{com.zui.calendar/com.zui.calendar.MainActivity}"
-        prefix="calendar_d" />-->
-
-    <item
-        component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{am.sunrise.android.calendar/am.sunrise.android.calendar.ui.HomeActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.meizu.flyme.calendar.AllInOneActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.google.android.calendar/com.android.calendar.HtcCalendarProvider}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.CalendarTabActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.MonthActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.AgendaActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.EventInfoActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.EditEventActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.timeline.EventListWithStartTime}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.ChooserActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchTasksActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarActivityMain}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.lenovo.android.calendar/com.lenovo.android.calendar.SplashActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.sonymobile.calendar/com.sonymobile.calendar.LaunchActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{cn.nubia.calendar.preset/cn.nubia.calendar.AllInOneActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.bbk.calendar/com.bbk.calendar.MainActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.zui.calendar/com.zui.calendar.MainActivity}"
-        drawable="calendar" />
-    <item
-        component="ComponentInfo{com.blackberry.calendar/com.blackberry.calendar.AllInOneActivity}"
-        drawable="calendar" />
-
-    <item
-        component="ComponentInfo{com.by_syk.nanoiconpack.sample/com.by_syk.lib.nanoiconpack.MainActivity}"
-        drawable="nano_icon_pack" />
-
+    <item component="ComponentInfo{air.tv.douyu.android/}" drawable="air_tv_douyu_android" />
+    <item component="ComponentInfo{ai.x.grok/}" drawable="ai_x_grok" />
+    <item component="ComponentInfo{alook.browser/}" drawable="alook_browser" />
+    <item component="ComponentInfo{app.anich/}" drawable="app_anich" />
+    <item component="ComponentInfo{app.mtool.mtoolmobile/}" drawable="app_mtool_mtoolmobile" />
+    <item component="ComponentInfo{app.podcast.cosmos/}" drawable="app_podcast_cosmos" />
+    <item component="ComponentInfo{bf.sgs.hdexp/}" drawable="bf_sgs_hdexp" />
+    <item component="ComponentInfo{bin.mt.plus/}" drawable="bin_mt_plus" />
+    <item component="ComponentInfo{bin.mt.plus.canary/}" drawable="bin_mt_plus_canary" />
+    <item component="ComponentInfo{bubei.tingshu/}" drawable="bubei_tingshu" />
+    <item component="ComponentInfo{ceui.lisa.pixiv/}" drawable="ceui_lisa_pixiv" />
+    <item component="ComponentInfo{ceui.pixiv.pshaft/}" drawable="ceui_pixiv_pshaft" />
+    <item component="ComponentInfo{ceui.pixiv.shaft/}" drawable="ceui_pixiv_shaft" />
+    <item component="ComponentInfo{client.android.yixiaotong/}" drawable="client_android_yixiaotong" />
+    <item component="ComponentInfo{cmb.pb/}" drawable="cmb_pb" />
+    <item component="ComponentInfo{cn.com.chsi.chsiapp/}" drawable="cn_com_chsi_chsiapp" />
+    <item component="ComponentInfo{cn.com.htjc.pay/}" drawable="cn_com_htjc_pay" />
+    <item component="ComponentInfo{cn.com.langeasy.easylisten/}" drawable="cn_com_langeasy_easylisten" />
+    <item component="ComponentInfo{cn.com.langeasy.langeasylexis/}" drawable="cn_com_langeasy_langeasylexis" />
+    <item component="ComponentInfo{cn.com.yunma.school.app/}" drawable="cn_com_yunma_school_app" />
+    <item component="ComponentInfo{cn.cyberidentity.certification/}" drawable="cn_cyberidentity_certification" />
+    <item component="ComponentInfo{cn.damai/}" drawable="cn_damai" />
+    <item component="ComponentInfo{cn.gov.pbc.dcep/}" drawable="cn_gov_pbc_dcep" />
+    <item component="ComponentInfo{cn.gov.tax.its/}" drawable="cn_gov_tax_its" />
+    <item component="ComponentInfo{cn.ishansong/}" drawable="cn_ishansong" />
+    <item component="ComponentInfo{cn.kuwo.player/}" drawable="cn_kuwo_player" />
+    <item component="ComponentInfo{cn.litiaotiao.app/}" drawable="cn_litiaotiao_app" />
+    <item component="ComponentInfo{cn.ninebot.ninebot/}" drawable="cn_ninebot_ninebot" />
+    <item component="ComponentInfo{cn.ninegame.gamemanager/}" drawable="cn_ninegame_gamemanager" />
+    <item component="ComponentInfo{cn.soulapp.android/}" drawable="cn_soulapp_android" />
+    <item component="ComponentInfo{cn.tuhu.android/}" drawable="cn_tuhu_android" />
+    <item component="ComponentInfo{cn.unipus.ucampus.student/}" drawable="cn_unipus_ucampus_student" />
+    <item component="ComponentInfo{cn.wenyu.bodian/}" drawable="cn_wenyu_bodian" />
+    <item component="ComponentInfo{cn.wps.moffice.eng/}" drawable="cn_wps_moffice_eng" />
+    <item component="ComponentInfo{cn.wsds.gamemaster/}" drawable="cn_wsds_gamemaster" />
+    <item component="ComponentInfo{cn.xiaochuankeji.tieba/}" drawable="cn_xiaochuankeji_tieba" />
+    <item component="ComponentInfo{cn.yonghui.hyd/}" drawable="cn_yonghui_hyd" />
+    <item component="ComponentInfo{com.a7m3p9xv.t6qk2z8.app/}" drawable="com_a7m3p9xv_t6qk2z8_app" />
+    <item component="ComponentInfo{com.able.wisdomtree/}" drawable="com_able_wisdomtree" />
+    <item component="ComponentInfo{com.absinthe.libchecker/}" drawable="com_absinthe_libchecker" />
+    <item component="ComponentInfo{com.accessibilitymanager/}" drawable="com_accessibilitymanager" />
+    <item component="ComponentInfo{com.achievo.vipshop/}" drawable="com_achievo_vipshop" />
+    <item component="ComponentInfo{com.actgames.bbee/}" drawable="com_actgames_bbee" />
+    <item component="ComponentInfo{com.actgames.bbee.bilibili/}" drawable="com_actgames_bbee_bilibili" />
+    <item component="ComponentInfo{com.advasoft.touchretouch/}" drawable="com_advasoft_touchretouch" />
+    <item component="ComponentInfo{com.agc.cama/}" drawable="com_agc_cama" />
+    <item component="ComponentInfo{com.agc.gcam92/}" drawable="com_agc_gcam92" />
+    <item component="ComponentInfo{com.aistra.hail/}" drawable="com_aistra_hail" />
+    <item component="ComponentInfo{com.aiwu.market/}" drawable="com_aiwu_market" />
+    <item component="ComponentInfo{com.ai.obc.cbn.app/}" drawable="com_ai_obc_cbn_app" />
+    <item component="ComponentInfo{com.akira.tyranoemu/}" drawable="com_akira_tyranoemu" />
+    <item component="ComponentInfo{com.alibaba.android.rimet/}" drawable="com_alibaba_android_rimet" />
+    <item component="ComponentInfo{com.alibaba.wireless/}" drawable="com_alibaba_wireless" />
+    <item component="ComponentInfo{com.alicloud.databox/}" drawable="com_alicloud_databox" />
+    <item component="ComponentInfo{com.aligames.kuang.kybc.aligames/}" drawable="com_aligames_kuang_kybc_aligames" />
+    <item component="ComponentInfo{com.aligames.kuang.kybc.huawei/}" drawable="com_aligames_kuang_kybc_huawei" />
+    <item component="ComponentInfo{com.aligames.kuang.kybc.mi/}" drawable="com_aligames_kuang_kybc_mi" />
+    <item component="ComponentInfo{com.aligames.kuang.kybc.nearme.gamecenter/}" drawable="com_aligames_kuang_kybc_nearme_gamecenter" />
+    <item component="ComponentInfo{com.aligames.kuang.kybc.vivo/}" drawable="com_aligames_kuang_kybc_vivo" />
+    <item component="ComponentInfo{com.aligames.star.sgzhxdl.bilibili/}" drawable="com_aligames_star_sgzhxdl_bilibili" />
+    <item component="ComponentInfo{com.aligames.star.sgzhxdl.huawei/}" drawable="com_aligames_star_sgzhxdl_huawei" />
+    <item component="ComponentInfo{com.aligames.star.sgzhxdl.nearme.gamecenter/}" drawable="com_aligames_star_sgzhxdl_nearme_gamecenter" />
+    <item component="ComponentInfo{com.aliothmoon.maameow/}" drawable="com_aliothmoon_maameow" />
+    <item component="ComponentInfo{com.aliyun.tongyi/}" drawable="com_aliyun_tongyi" />
+    <item component="ComponentInfo{com.ali.games.star/}" drawable="com_ali_games_star" />
+    <item component="ComponentInfo{com.ali.games.star.m4399/}" drawable="com_ali_games_star_m4399" />
+    <item component="ComponentInfo{com.ali.games.star.mini01/}" drawable="com_ali_games_star_mini01" />
+    <item component="ComponentInfo{com.android1939.kards/}" drawable="com_android1939_kards" />
+    <item component="ComponentInfo{com.android1939.kardsapk/}" drawable="com_android1939_kardsapk" />
+    <item component="ComponentInfo{com.android.bankabc/}" drawable="com_android_bankabc" />
+    <item component="ComponentInfo{com.android.bbkcalculator/}" drawable="com_android_bbkcalculator" />
+    <item component="ComponentInfo{com.android.bbkclock/}" drawable="com_android_bbkclock" />
+    <item component="ComponentInfo{com.android.bbkmusic/}" drawable="com_android_bbkmusic" />
+    <item component="ComponentInfo{com.android.bbksoundrecorder/}" drawable="com_android_bbksoundrecorder" />
+    <item component="ComponentInfo{com.android.bbk.lockscreen/}" drawable="com_android_bbk_lockscreen" />
+    <item component="ComponentInfo{com.android.bbk.lockscreen3/}" drawable="com_android_bbk_lockscreen3" />
+    <item component="ComponentInfo{com.android.bbk.lockscreen4/}" drawable="com_android_bbk_lockscreen4" />
+    <item component="ComponentInfo{com.android.camera/}" drawable="com_android_camera" />
+    <item component="ComponentInfo{com.android.camera.packet.camerapacketactivity/}" drawable="com_android_camera_packet_camerapacketactivity" />
+    <item component="ComponentInfo{com.android.chrome/}" drawable="com_android_chrome" />
+    <item component="ComponentInfo{com.android.contacts/}" drawable="com_android_contacts" />
+    <item component="ComponentInfo{com.android.dialer.twelvekeydialer/}" drawable="com_android_dialer_twelvekeydialer" />
+    <item component="ComponentInfo{com.android.email/}" drawable="com_android_email" />
+    <item component="ComponentInfo{com.android.filemanager/}" drawable="com_android_filemanager" />
+    <item component="ComponentInfo{com.android.mms/}" drawable="com_android_mms" />
+    <item component="ComponentInfo{com.android.notes/}" drawable="com_android_notes" />
+    <item component="ComponentInfo{com.android.settings/}" drawable="com_android_settings" />
+    <item component="ComponentInfo{com.android.vending/}" drawable="com_android_vending" />
+    <item component="ComponentInfo{com.android.videoplayer/}" drawable="com_android_videoplayer" />
+    <item component="ComponentInfo{com.and.games505.terrariapaid/}" drawable="com_and_games505_terrariapaid" />
+    <item component="ComponentInfo{com.anjuke.android.app/}" drawable="com_anjuke_android_app" />
+    <item component="ComponentInfo{com.antutu.abenchmark/}" drawable="com_antutu_abenchmark" />
+    <item component="ComponentInfo{com.antutu.aibenchmark/}" drawable="com_antutu_aibenchmark" />
+    <item component="ComponentInfo{com.antutu.benchmark.full/}" drawable="com_antutu_benchmark_full" />
+    <item component="ComponentInfo{com.apkpure.aegon/}" drawable="com_apkpure_aegon" />
+    <item component="ComponentInfo{com.apple.android.music/}" drawable="com_apple_android_music" />
+    <item component="ComponentInfo{com.app.shanghai.metro/}" drawable="com_app_shanghai_metro" />
+    <item component="ComponentInfo{com.autonavi.minimap/}" drawable="com_autonavi_minimap" />
+    <item component="ComponentInfo{com.azure.authenticator/}" drawable="com_azure_authenticator" />
+    <item component="ComponentInfo{com.baidu.baidumap/}" drawable="com_baidu_baidumap" />
+    <item component="ComponentInfo{com.baidu.baidutranslate/}" drawable="com_baidu_baidutranslate" />
+    <item component="ComponentInfo{com.baidu.homework/}" drawable="com_baidu_homework" />
+    <item component="ComponentInfo{com.baidu.input/}" drawable="com_baidu_input" />
+    <item component="ComponentInfo{com.baidu.netdisk/}" drawable="com_baidu_netdisk" />
+    <item component="ComponentInfo{com.baidu.newapp/}" drawable="com_baidu_newapp" />
+    <item component="ComponentInfo{com.baidu.searchbox/}" drawable="com_baidu_searchbox" />
+    <item component="ComponentInfo{com.baidu.searchbox.lite/}" drawable="com_baidu_searchbox_lite" />
+    <item component="ComponentInfo{com.baidu.tieba/}" drawable="com_baidu_tieba" />
+    <item component="ComponentInfo{com.bandainamcoent.idolmaster.gakuen/}" drawable="com_bandainamcoent_idolmaster_gakuen" />
+    <item component="ComponentInfo{com.bankcomm.bankcomm/}" drawable="com_bankcomm_bankcomm" />
+    <item component="ComponentInfo{com.bbk.appstore/}" drawable="com_bbk_appstore" />
+    <item component="ComponentInfo{com.bbk.calendar/}" drawable="com_bbk_calendar" />
+    <item component="ComponentInfo{com.bbk.cloud/}" drawable="com_bbk_cloud" />
+    <item component="ComponentInfo{com.bbk.iqoo.feedback/}" drawable="com_bbk_iqoo_feedback" />
+    <item component="ComponentInfo{com.bbk.theme/}" drawable="com_bbk_theme" />
+    <item component="ComponentInfo{com.bf.sgs.hdexp/}" drawable="com_bf_sgs_hdexp" />
+    <item component="ComponentInfo{com.bf.sgs.hdexp.bd/}" drawable="com_bf_sgs_hdexp_bd" />
+    <item component="ComponentInfo{com.bf.sgs.hdexp.bilibili/}" drawable="com_bf_sgs_hdexp_bilibili" />
+    <item component="ComponentInfo{com.bf.sgs.hdexp.huawei/}" drawable="com_bf_sgs_hdexp_huawei" />
+    <item component="ComponentInfo{com.bf.sgs.hdexp.m4399/}" drawable="com_bf_sgs_hdexp_m4399" />
+    <item component="ComponentInfo{com.bf.sgs.hdexp.mi/}" drawable="com_bf_sgs_hdexp_mi" />
+    <item component="ComponentInfo{com.bf.sgs.hdexp.uc/}" drawable="com_bf_sgs_hdexp_uc" />
+    <item component="ComponentInfo{com.bf.sgs.hdexp.vivo/}" drawable="com_bf_sgs_hdexp_vivo" />
+    <item component="ComponentInfo{com.bf.sgs.hdexp.yyh/}" drawable="com_bf_sgs_hdexp_yyh" />
+    <item component="ComponentInfo{com.bf.sgs.mz/}" drawable="com_bf_sgs_mz" />
+    <item component="ComponentInfo{com.bf.sgs.yyh/}" drawable="com_bf_sgs_yyh" />
+    <item component="ComponentInfo{com.bilibili.app.in/}" drawable="com_bilibili_app_in" />
+    <item component="ComponentInfo{com.bilibili.azurlane/}" drawable="com_bilibili_azurlane" />
+    <item component="ComponentInfo{com.bilibili.blhx.huawei/}" drawable="com_bilibili_blhx_huawei" />
+    <item component="ComponentInfo{com.bilibili.blhx.m4399/}" drawable="com_bilibili_blhx_m4399" />
+    <item component="ComponentInfo{com.bilibili.blhx.mi/}" drawable="com_bilibili_blhx_mi" />
+    <item component="ComponentInfo{com.bilibili.blhx.nearme.gamecenter/}" drawable="com_bilibili_blhx_nearme_gamecenter" />
+    <item component="ComponentInfo{com.bilibili.blhx.uc/}" drawable="com_bilibili_blhx_uc" />
+    <item component="ComponentInfo{com.bilibili.blhx.vivo/}" drawable="com_bilibili_blhx_vivo" />
+    <item component="ComponentInfo{com.bilibili.comic/}" drawable="com_bilibili_comic" />
+    <item component="ComponentInfo{com.bilibili.deadcells.mobile/}" drawable="com_bilibili_deadcells_mobile" />
+    <item component="ComponentInfo{com.bilibili.deadcells.mobile.aligames/}" drawable="com_bilibili_deadcells_mobile_aligames" />
+    <item component="ComponentInfo{com.bilibili.deadcells.mobile.huawei/}" drawable="com_bilibili_deadcells_mobile_huawei" />
+    <item component="ComponentInfo{com.bilibili.deadcells.mobile.m4399/}" drawable="com_bilibili_deadcells_mobile_m4399" />
+    <item component="ComponentInfo{com.bilibili.deadcells.mobile.mi/}" drawable="com_bilibili_deadcells_mobile_mi" />
+    <item component="ComponentInfo{com.bilibili.deadcells.mobile.vivo/}" drawable="com_bilibili_deadcells_mobile_vivo" />
+    <item component="ComponentInfo{com.bilibili.fatego/}" drawable="com_bilibili_fatego" />
+    <item component="ComponentInfo{com.bilibili.fatego.sharejoy/}" drawable="com_bilibili_fatego_sharejoy" />
+    <item component="ComponentInfo{com.bilibili.fgo.m4399/}" drawable="com_bilibili_fgo_m4399" />
+    <item component="ComponentInfo{com.bilibili.heaven/}" drawable="com_bilibili_heaven" />
+    <item component="ComponentInfo{com.bilibili.priconne/}" drawable="com_bilibili_priconne" />
+    <item component="ComponentInfo{com.bilibili.priconne.huawei/}" drawable="com_bilibili_priconne_huawei" />
+    <item component="ComponentInfo{com.bilibili.priconne.m4399/}" drawable="com_bilibili_priconne_m4399" />
+    <item component="ComponentInfo{com.bilibili.priconne.mi/}" drawable="com_bilibili_priconne_mi" />
+    <item component="ComponentInfo{com.bilibili.priconne.nearme.gamecenter/}" drawable="com_bilibili_priconne_nearme_gamecenter" />
+    <item component="ComponentInfo{com.bilibili.priconne.vivo/}" drawable="com_bilibili_priconne_vivo" />
+    <item component="ComponentInfo{com.bilibili.snake/}" drawable="com_bilibili_snake" />
+    <item component="ComponentInfo{com.bilibili.snake.huawei/}" drawable="com_bilibili_snake_huawei" />
+    <item component="ComponentInfo{com.bilibili.snake.mi/}" drawable="com_bilibili_snake_mi" />
+    <item component="ComponentInfo{com.bilibili.snake.nearme.gamecenter/}" drawable="com_bilibili_snake_nearme_gamecenter" />
+    <item component="ComponentInfo{com.bilibili.snake.vivo/}" drawable="com_bilibili_snake_vivo" />
+    <item component="ComponentInfo{com.bilibili.star.bili/}" drawable="com_bilibili_star_bili" />
+    <item component="ComponentInfo{com.bilibili.studio/}" drawable="com_bilibili_studio" />
+    <item component="ComponentInfo{com.bilibili.trickcalcn/}" drawable="com_bilibili_trickcalcn" />
+    <item component="ComponentInfo{com.bilibili.umamusu/}" drawable="com_bilibili_umamusu" />
+    <item component="ComponentInfo{com.bjchuhai/}" drawable="com_bjchuhai" />
+    <item component="ComponentInfo{com.bjsm.dungeonlabs/}" drawable="com_bjsm_dungeonlabs" />
+    <item component="ComponentInfo{com.bjsm.dungeonlabs4/}" drawable="com_bjsm_dungeonlabs4" />
+    <item component="ComponentInfo{com.blizzard.wtcg.hearthstone/}" drawable="com_blizzard_wtcg_hearthstone" />
+    <item component="ComponentInfo{com.blizzard.wtcg.hearthstone.cn.dashen/}" drawable="com_blizzard_wtcg_hearthstone_cn_dashen" />
+    <item component="ComponentInfo{com.blueocean.musicplayer/}" drawable="com_blueocean_musicplayer" />
+    <item component="ComponentInfo{com.boohee.one/}" drawable="com_boohee_one" />
+    <item component="ComponentInfo{com.bushiroad.en.bangdreamgbp/}" drawable="com_bushiroad_en_bangdreamgbp" />
+    <item component="ComponentInfo{com.bytedance.android.doubaoime/}" drawable="com_bytedance_android_doubaoime" />
+    <item component="ComponentInfo{com.byyoung.setting/}" drawable="com_byyoung_setting" />
+    <item component="ComponentInfo{com.cainiao.cnintl4android/}" drawable="com_cainiao_cnintl4android" />
+    <item component="ComponentInfo{com.cainiao.wireless/}" drawable="com_cainiao_wireless" />
+    <item component="ComponentInfo{com.cat.readall/}" drawable="com_cat_readall" />
+    <item component="ComponentInfo{com.cbjq.mi/}" drawable="com_cbjq_mi" />
+    <item component="ComponentInfo{com.ccb.longjilife/}" drawable="com_ccb_longjilife" />
+    <item component="ComponentInfo{com.chan.cwallpaper/}" drawable="com_chan_cwallpaper" />
+    <item component="ComponentInfo{com.chaoxing.mobile/}" drawable="com_chaoxing_mobile" />
+    <item component="ComponentInfo{com.chaozh.ireader/}" drawable="com_chaozh_ireader" />
+    <item component="ComponentInfo{com.chillyroom.dungeonshooter/}" drawable="com_chillyroom_dungeonshooter" />
+    <item component="ComponentInfo{com.chillyroom.knight.m4399/}" drawable="com_chillyroom_knight_m4399" />
+    <item component="ComponentInfo{com.chillyroom.nearme.gamecenter/}" drawable="com_chillyroom_nearme_gamecenter" />
+    <item component="ComponentInfo{com.chinamobile.mcloud/}" drawable="com_chinamobile_mcloud" />
+    <item component="ComponentInfo{com.chinamworld.bocmbci/}" drawable="com_chinamworld_bocmbci" />
+    <item component="ComponentInfo{com.chinamworld.main/}" drawable="com_chinamworld_main" />
+    <item component="ComponentInfo{com.chucklefish.stardewvalley/}" drawable="com_chucklefish_stardewvalley" />
+    <item component="ComponentInfo{com.cib.cibmb/}" drawable="com_cib_cibmb" />
+    <item component="ComponentInfo{com.cipaishe.wuhua.bilibili/}" drawable="com_cipaishe_wuhua_bilibili" />
+    <item component="ComponentInfo{com.citic21.user/}" drawable="com_citic21_user" />
+    <item component="ComponentInfo{com.clggjv.xcjfmd.ffo/}" drawable="com_clggjv_xcjfmd_ffo" />
+    <item component="ComponentInfo{com.clover.daysmatter/}" drawable="com_clover_daysmatter" />
+    <item component="ComponentInfo{com.cmcc.cmvideo/}" drawable="com_cmcc_cmvideo" />
+    <item component="ComponentInfo{com.cmri.universalapp/}" drawable="com_cmri_universalapp" />
+    <item component="ComponentInfo{com.cn21.ecloud/}" drawable="com_cn21_ecloud" />
+    <item component="ComponentInfo{com.coolapk.market/}" drawable="com_coolapk_market" />
+    <item component="ComponentInfo{com.copymanga.app/}" drawable="com_copymanga_app" />
+    <item component="ComponentInfo{com.ct.client/}" drawable="com_ct_client" />
+    <item component="ComponentInfo{com.cygames.shadowverse/}" drawable="com_cygames_shadowverse" />
+    <item component="ComponentInfo{com.dada.mobile.android/}" drawable="com_dada_mobile_android" />
+    <item component="ComponentInfo{com.dada.mobile.shop.android/}" drawable="com_dada_mobile_shop_android" />
+    <item component="ComponentInfo{com.deepseek.chat/}" drawable="com_deepseek_chat" />
+    <item component="ComponentInfo{com.dianping.v1/}" drawable="com_dianping_v1" />
+    <item component="ComponentInfo{com.didi.es.psngr/}" drawable="com_didi_es_psngr" />
+    <item component="ComponentInfo{com.digibites.accubattery/}" drawable="com_digibites_accubattery" />
+    <item component="ComponentInfo{com.digitalgd.dgyss/}" drawable="com_digitalgd_dgyss" />
+    <item component="ComponentInfo{com.discord/}" drawable="com_discord" />
+    <item component="ComponentInfo{com.dmzj.manhua/}" drawable="com_dmzj_manhua" />
+    <item component="ComponentInfo{com.douban.frodo/}" drawable="com_douban_frodo" />
+    <item component="ComponentInfo{com.douguo.recipe/}" drawable="com_douguo_recipe" />
+    <item component="ComponentInfo{com.dragonli.projectsnow.bilibili/}" drawable="com_dragonli_projectsnow_bilibili" />
+    <item component="ComponentInfo{com.dragonli.projectsnow.lhm/}" drawable="com_dragonli_projectsnow_lhm" />
+    <item component="ComponentInfo{com.dragon.read/}" drawable="com_dragon_read" />
+    <item component="ComponentInfo{com.dragon.read.oversea.gp/}" drawable="com_dragon_read_oversea_gp" />
+    <item component="ComponentInfo{com.dsemu.drastic/}" drawable="com_dsemu_drastic" />
+    <item component="ComponentInfo{com.duolingo/}" drawable="com_duolingo" />
+    <item component="ComponentInfo{com.duowan.kiwi/}" drawable="com_duowan_kiwi" />
+    <item component="ComponentInfo{com.duowan.mobile/}" drawable="com_duowan_mobile" />
+    <item component="ComponentInfo{com.dynamixsoftware.printershare/}" drawable="com_dynamixsoftware_printershare" />
+    <item component="ComponentInfo{com.ea.game.pvz2.row/}" drawable="com_ea_game_pvz2_row" />
+    <item component="ComponentInfo{com.ecitic.bank.mobile/}" drawable="com_ecitic_bank_mobile" />
+    <item component="ComponentInfo{com.edifier.edifierconnect/}" drawable="com_edifier_edifierconnect" />
+    <item component="ComponentInfo{com.eg.android.alipaygphone/}" drawable="com_eg_android_alipaygphone" />
+    <item component="ComponentInfo{com.estrongs.android.pop/}" drawable="com_estrongs_android_pop" />
+    <item component="ComponentInfo{com.eusoft.eudic/}" drawable="com_eusoft_eudic" />
+    <item component="ComponentInfo{com.eusoft.ting.en/}" drawable="com_eusoft_ting_en" />
+    <item component="ComponentInfo{com.example.administrator.searchpicturetool/}" drawable="com_example_administrator_searchpicturetool" />
+    <item component="ComponentInfo{com.example.app/}" drawable="com_example_app" />
+    <item component="ComponentInfo{com.example.originos6/}" drawable="com_example_originos6" />
+    <item component="ComponentInfo{com.excean.gspace/}" drawable="com_excean_gspace" />
+    <item component="ComponentInfo{com.excean.splay/}" drawable="com_excean_splay" />
+    <item component="ComponentInfo{com.f100.android/}" drawable="com_f100_android" />
+    <item component="ComponentInfo{com.facebook.katana/}" drawable="com_facebook_katana" />
+    <item component="ComponentInfo{com.fantablade.icey/}" drawable="com_fantablade_icey" />
+    <item component="ComponentInfo{com.farplace.qingzhuo/}" drawable="com_farplace_qingzhuo" />
+    <item component="ComponentInfo{com.fdg.flashplay.farsee/}" drawable="com_fdg_flashplay_farsee" />
+    <item component="ComponentInfo{com.feimo.hazeworld.bilibili/}" drawable="com_feimo_hazeworld_bilibili" />
+    <item component="ComponentInfo{com.feimo.hazeworld.main/}" drawable="com_feimo_hazeworld_main" />
+    <item component="ComponentInfo{com.fenbi.android.kyzz/}" drawable="com_fenbi_android_kyzz" />
+    <item component="ComponentInfo{com.fenbi.android.servant/}" drawable="com_fenbi_android_servant" />
+    <item component="ComponentInfo{com.fenbi.android.solar/}" drawable="com_fenbi_android_solar" />
+    <item component="ComponentInfo{com.fenbi.android.zhaojiao/}" drawable="com_fenbi_android_zhaojiao" />
+    <item component="ComponentInfo{com.fileunzip.zxwknight/}" drawable="com_fileunzip_zxwknight" />
+    <item component="ComponentInfo{com.floravita.diary/}" drawable="com_floravita_diary" />
+    <item component="ComponentInfo{com.flyersoft.moonreader/}" drawable="com_flyersoft_moonreader" />
+    <item component="ComponentInfo{com.follow.clash/}" drawable="com_follow_clash" />
+    <item component="ComponentInfo{com.gamamobi.nikke/}" drawable="com_gamamobi_nikke" />
+    <item component="ComponentInfo{com.gameabc.sgspad/}" drawable="com_gameabc_sgspad" />
+    <item component="ComponentInfo{com.gameabc.sgspad.huawei/}" drawable="com_gameabc_sgspad_huawei" />
+    <item component="ComponentInfo{com.gameabc.sgspad.mz/}" drawable="com_gameabc_sgspad_mz" />
+    <item component="ComponentInfo{com.gamebeans.gp.jczx/}" drawable="com_gamebeans_gp_jczx" />
+    <item component="ComponentInfo{com.gamersky/}" drawable="com_gamersky" />
+    <item component="ComponentInfo{com.ganji.android/}" drawable="com_ganji_android" />
+    <item component="ComponentInfo{com.gaotu100.superclass/}" drawable="com_gaotu100_superclass" />
+    <item component="ComponentInfo{com.gedoor.monkeybook/}" drawable="com_gedoor_monkeybook" />
+    <item component="ComponentInfo{com.geelygalaxy.customer/}" drawable="com_geelygalaxy_customer" />
+    <item component="ComponentInfo{com.gentle.ppcat/}" drawable="com_gentle_ppcat" />
+    <item component="ComponentInfo{com.github.android/}" drawable="com_github_android" />
+    <item component="ComponentInfo{com.github.kr328.clash/}" drawable="com_github_kr328_clash" />
+    <item component="ComponentInfo{com.github.kr328.clashr/}" drawable="com_github_kr328_clashr" />
+    <item component="ComponentInfo{com.github.metacubex.clash.meta/}" drawable="com_github_metacubex_clash_meta" />
+    <item component="ComponentInfo{com.glkj.lhcx.bilibili/}" drawable="com_glkj_lhcx_bilibili" />
+    <item component="ComponentInfo{com.glkj.lhcx.gf/}" drawable="com_glkj_lhcx_gf" />
+    <item component="ComponentInfo{com.glkj.lhcx.huawei/}" drawable="com_glkj_lhcx_huawei" />
+    <item component="ComponentInfo{com.glkj.lhcx.m4399/}" drawable="com_glkj_lhcx_m4399" />
+    <item component="ComponentInfo{com.glkj.lhcx.mi/}" drawable="com_glkj_lhcx_mi" />
+    <item component="ComponentInfo{com.glkj.lhcx.oppo.nearme.gamecenter/}" drawable="com_glkj_lhcx_oppo_nearme_gamecenter" />
+    <item component="ComponentInfo{com.glodon.drawingexplore/}" drawable="com_glodon_drawingexplore" />
+    <item component="ComponentInfo{com.glodon.drawingexplorer/}" drawable="com_glodon_drawingexplorer" />
+    <item component="ComponentInfo{com.google.android.apps.bard/}" drawable="com_google_android_apps_bard" />
+    <item component="ComponentInfo{com.google.android.apps.docs/}" drawable="com_google_android_apps_docs" />
+    <item component="ComponentInfo{com.google.android.apps.fitness/}" drawable="com_google_android_apps_fitness" />
+    <item component="ComponentInfo{com.google.android.apps.googleassistant/}" drawable="com_google_android_apps_googleassistant" />
+    <item component="ComponentInfo{com.google.android.apps.magazines/}" drawable="com_google_android_apps_magazines" />
+    <item component="ComponentInfo{com.google.android.apps.maps/}" drawable="com_google_android_apps_maps" />
+    <item component="ComponentInfo{com.google.android.apps.nbu.files/}" drawable="com_google_android_apps_nbu_files" />
+    <item component="ComponentInfo{com.google.android.apps.photos/}" drawable="com_google_android_apps_photos" />
+    <item component="ComponentInfo{com.google.android.apps.photosgo/}" drawable="com_google_android_apps_photosgo" />
+    <item component="ComponentInfo{com.google.android.apps.podcasts/}" drawable="com_google_android_apps_podcasts" />
+    <item component="ComponentInfo{com.google.android.apps.tachyon/}" drawable="com_google_android_apps_tachyon" />
+    <item component="ComponentInfo{com.google.android.apps.tasks/}" drawable="com_google_android_apps_tasks" />
+    <item component="ComponentInfo{com.google.android.apps.translate/}" drawable="com_google_android_apps_translate" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.music/}" drawable="com_google_android_apps_youtube_music" />
+    <item component="ComponentInfo{com.google.android.gm/}" drawable="com_google_android_gm" />
+    <item component="ComponentInfo{com.google.android.gms/}" drawable="com_google_android_gms" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/}" drawable="com_google_android_googlequicksearchbox" />
+    <item component="ComponentInfo{com.google.android.inputmethod.latin/}" drawable="com_google_android_inputmethod_latin" />
+    <item component="ComponentInfo{com.google.android.keep/}" drawable="com_google_android_keep" />
+    <item component="ComponentInfo{com.google.android.play.games/}" drawable="com_google_android_play_games" />
+    <item component="ComponentInfo{com.google.android.wearable.app/}" drawable="com_google_android_wearable_app" />
+    <item component="ComponentInfo{com.google.android.youtube/}" drawable="com_google_android_youtube" />
+    <item component="ComponentInfo{com.google.ar.lens/}" drawable="com_google_ar_lens" />
+    <item component="ComponentInfo{com.google.earth/}" drawable="com_google_earth" />
+    <item component="ComponentInfo{com.gotokeep.keep/}" drawable="com_gotokeep_keep" />
+    <item component="ComponentInfo{com.greenpoint.android.mc10086.activity/}" drawable="com_greenpoint_android_mc10086_activity" />
+    <item component="ComponentInfo{com.gryphline.endfield.gp/}" drawable="com_gryphline_endfield_gp" />
+    <item component="ComponentInfo{com.gtgj.view/}" drawable="com_gtgj_view" />
+    <item component="ComponentInfo{com.habby.danke.honor/}" drawable="com_habby_danke_honor" />
+    <item component="ComponentInfo{com.habby.danke.huawei/}" drawable="com_habby_danke_huawei" />
+    <item component="ComponentInfo{com.habby.danke.mi/}" drawable="com_habby_danke_mi" />
+    <item component="ComponentInfo{com.habby.danke.nearme.gamecenter/}" drawable="com_habby_danke_nearme_gamecenter" />
+    <item component="ComponentInfo{com.habby.danke.vivo/}" drawable="com_habby_danke_vivo" />
+    <item component="ComponentInfo{com.handsgo.jiakao.android/}" drawable="com_handsgo_jiakao_android" />
+    <item component="ComponentInfo{com.haoplay.game.and.exilium/}" drawable="com_haoplay_game_and_exilium" />
+    <item component="ComponentInfo{com.happyelements.androidanimal/}" drawable="com_happyelements_androidanimal" />
+    <item component="ComponentInfo{com.happyelements.androidclover.mob/}" drawable="com_happyelements_androidclover_mob" />
+    <item component="ComponentInfo{com.hd.xxdkhb.and/}" drawable="com_hd_xxdkhb_and" />
+    <item component="ComponentInfo{com.heavenburnsred/}" drawable="com_heavenburnsred" />
+    <item component="ComponentInfo{com.hermes.h1game/}" drawable="com_hermes_h1game" />
+    <item component="ComponentInfo{com.hermes.h1game.bilibili/}" drawable="com_hermes_h1game_bilibili" />
+    <item component="ComponentInfo{com.hermes.h1game.huawei/}" drawable="com_hermes_h1game_huawei" />
+    <item component="ComponentInfo{com.hermes.h1game.mi/}" drawable="com_hermes_h1game_mi" />
+    <item component="ComponentInfo{com.hermes.h1game.nearme.gamecenter/}" drawable="com_hermes_h1game_nearme_gamecenter" />
+    <item component="ComponentInfo{com.hermes.h1game.vivo/}" drawable="com_hermes_h1game_vivo" />
+    <item component="ComponentInfo{com.hermes.mk/}" drawable="com_hermes_mk" />
+    <item component="ComponentInfo{com.hermes.mk.asia/}" drawable="com_hermes_mk_asia" />
+    <item component="ComponentInfo{com.hermes.mk.bilibili/}" drawable="com_hermes_mk_bilibili" />
+    <item component="ComponentInfo{com.hero.dna.bilibili/}" drawable="com_hero_dna_bilibili" />
+    <item component="ComponentInfo{com.hero.dna.gf/}" drawable="com_hero_dna_gf" />
+    <item component="ComponentInfo{com.hero.dna.nearme.gamecenter/}" drawable="com_hero_dna_nearme_gamecenter" />
+    <item component="ComponentInfo{com.heytap.headset/}" drawable="com_heytap_headset" />
+    <item component="ComponentInfo{com.heytap.health/}" drawable="com_heytap_health" />
+    <item component="ComponentInfo{com.hgacg.community/}" drawable="com_hgacg_community" />
+    <item component="ComponentInfo{com.hiby.music/}" drawable="com_hiby_music" />
+    <item component="ComponentInfo{com.hicorenational.antifraud/}" drawable="com_hicorenational_antifraud" />
+    <item component="ComponentInfo{com.hihonor.cloudmusic/}" drawable="com_hihonor_cloudmusic" />
+    <item component="ComponentInfo{com.hihonor.wpslauncher/}" drawable="com_hihonor_wpslauncher" />
+    <item component="ComponentInfo{com.hippo.ehviewer/}" drawable="com_hippo_ehviewer" />
+    <item component="ComponentInfo{com.honoki.mtoki/}" drawable="com_honoki_mtoki" />
+    <item component="ComponentInfo{com.hottagames.hotta.bilibili/}" drawable="com_hottagames_hotta_bilibili" />
+    <item component="ComponentInfo{com.hottagames.hotta.m4399/}" drawable="com_hottagames_hotta_m4399" />
+    <item component="ComponentInfo{com.hottagames.hotta.mi/}" drawable="com_hottagames_hotta_mi" />
+    <item component="ComponentInfo{com.hottagames.hotta.nearme.gamecenter/}" drawable="com_hottagames_hotta_nearme_gamecenter" />
+    <item component="ComponentInfo{com.hottagames.nte/}" drawable="com_hottagames_nte" />
+    <item component="ComponentInfo{com.hottagames.yh.bilibili/}" drawable="com_hottagames_yh_bilibili" />
+    <item component="ComponentInfo{com.hottagames.yh.laohu/}" drawable="com_hottagames_yh_laohu" />
+    <item component="ComponentInfo{com.hoyoverse.hkrpgoversea/}" drawable="com_hoyoverse_hkrpgoversea" />
+    <item component="ComponentInfo{com.hoyoverse.nap/}" drawable="com_hoyoverse_nap" />
+    <item component="ComponentInfo{com.hpbr.bosszhipin/}" drawable="com_hpbr_bosszhipin" />
+    <item component="ComponentInfo{com.huatu.handheld.huatu/}" drawable="com_huatu_handheld_huatu" />
+    <item component="ComponentInfo{com.huawei.genexcloud.speedtest/}" drawable="com_huawei_genexcloud_speedtest" />
+    <item component="ComponentInfo{com.huawei.health/}" drawable="com_huawei_health" />
+    <item component="ComponentInfo{com.huawei.smarthome/}" drawable="com_huawei_smarthome" />
+    <item component="ComponentInfo{com.huaxiaozhu.rider/}" drawable="com_huaxiaozhu_rider" />
+    <item component="ComponentInfo{com.huluxia.gametools/}" drawable="com_huluxia_gametools" />
+    <item component="ComponentInfo{com.hunantv.imgo.activity/}" drawable="com_hunantv_imgo_activity" />
+    <item component="ComponentInfo{com.hupu.games/}" drawable="com_hupu_games" />
+    <item component="ComponentInfo{com.hupu.shihuo/}" drawable="com_hupu_shihuo" />
+    <item component="ComponentInfo{com.huya.kiwi/}" drawable="com_huya_kiwi" />
+    <item component="ComponentInfo{com.hypergryph.arknights/}" drawable="com_hypergryph_arknights" />
+    <item component="ComponentInfo{com.hypergryph.arknights.bilibili/}" drawable="com_hypergryph_arknights_bilibili" />
+    <item component="ComponentInfo{com.hypergryph.cloud.endfield/}" drawable="com_hypergryph_cloud_endfield" />
+    <item component="ComponentInfo{com.hypergryph.endfield/}" drawable="com_hypergryph_endfield" />
+    <item component="ComponentInfo{com.hypergryph.endfield.bilibili/}" drawable="com_hypergryph_endfield_bilibili" />
+    <item component="ComponentInfo{com.hypergryph.skland/}" drawable="com_hypergryph_skland" />
+    <item component="ComponentInfo{com.icbc/}" drawable="com_icbc" />
+    <item component="ComponentInfo{com.ichi2.anki/}" drawable="com_ichi2_anki" />
+    <item component="ComponentInfo{com.idreamsky.klbqm/}" drawable="com_idreamsky_klbqm" />
+    <item component="ComponentInfo{com.idreamsky.klbqm.bilibili/}" drawable="com_idreamsky_klbqm_bilibili" />
+    <item component="ComponentInfo{com.idreamsky.klbqm.nearme.gamecenter/}" drawable="com_idreamsky_klbqm_nearme_gamecenter" />
+    <item component="ComponentInfo{com.idreamsky.klbqm.vivo/}" drawable="com_idreamsky_klbqm_vivo" />
+    <item component="ComponentInfo{com.iflytek.elpmobile.marktool/}" drawable="com_iflytek_elpmobile_marktool" />
+    <item component="ComponentInfo{com.iflytek.elpmobile.smartlearning/}" drawable="com_iflytek_elpmobile_smartlearning" />
+    <item component="ComponentInfo{com.iflytek.elpmobile.student/}" drawable="com_iflytek_elpmobile_student" />
+    <item component="ComponentInfo{com.iflytek.inputmethod/}" drawable="com_iflytek_inputmethod" />
+    <item component="ComponentInfo{com.ilongyuan.cytus2.ly.taptap/}" drawable="com_ilongyuan_cytus2_ly_taptap" />
+    <item component="ComponentInfo{com.imbastar.c5game/}" drawable="com_imbastar_c5game" />
+    <item component="ComponentInfo{com.immomo.momo/}" drawable="com_immomo_momo" />
+    <item component="ComponentInfo{com.immomo.young/}" drawable="com_immomo_young" />
+    <item component="ComponentInfo{com.instagram.android/}" drawable="com_instagram_android" />
+    <item component="ComponentInfo{com.intsig.camscanner/}" drawable="com_intsig_camscanner" />
+    <item component="ComponentInfo{com.iqigame.lhcx.vivo/}" drawable="com_iqigame_lhcx_vivo" />
+    <item component="ComponentInfo{com.iqoo.secure/}" drawable="com_iqoo_secure" />
+    <item component="ComponentInfo{com.ishansong/}" drawable="com_ishansong" />
+    <item component="ComponentInfo{com.iudesk.android.photo.editor/}" drawable="com_iudesk_android_photo_editor" />
+    <item component="ComponentInfo{com.jd.app.reader/}" drawable="com_jd_app_reader" />
+    <item component="ComponentInfo{com.jd.jrapp/}" drawable="com_jd_jrapp" />
+    <item component="ComponentInfo{com.jh.onscripter/}" drawable="com_jh_onscripter" />
+    <item component="ComponentInfo{com.jiaohua.browser/}" drawable="com_jiaohua_browser" />
+    <item component="ComponentInfo{com.jiayuan.pixcheese/}" drawable="com_jiayuan_pixcheese" />
+    <item component="ComponentInfo{com.jingdong.app.mall/}" drawable="com_jingdong_app_mall" />
+    <item component="ComponentInfo{com.jingyao.easybike/}" drawable="com_jingyao_easybike" />
+    <item component="ComponentInfo{com.jiongji.andriod.card/}" drawable="com_jiongji_andriod_card" />
+    <item component="ComponentInfo{com.jjwxc.reader/}" drawable="com_jjwxc_reader" />
+    <item component="ComponentInfo{com.jmcomic3.app/}" drawable="com_jmcomic3_app" />
+    <item component="ComponentInfo{com.job.android/}" drawable="com_job_android" />
+    <item component="ComponentInfo{com.join.android.app.mgsim.wufun/}" drawable="com_join_android_app_mgsim_wufun" />
+    <item component="ComponentInfo{com.jumpw.mobile300/}" drawable="com_jumpw_mobile300" />
+    <item component="ComponentInfo{com.jumpw.mobile300.mi/}" drawable="com_jumpw_mobile300_mi" />
+    <item component="ComponentInfo{com.jumpw.mobile.huawei/}" drawable="com_jumpw_mobile_huawei" />
+    <item component="ComponentInfo{com.jumpw.mobile.nearme.gamecenter/}" drawable="com_jumpw_mobile_nearme_gamecenter" />
+    <item component="ComponentInfo{com.jumpw.mobile.vivo/}" drawable="com_jumpw_mobile_vivo" />
+    <item component="ComponentInfo{com.jxedt/}" drawable="com_jxedt" />
+    <item component="ComponentInfo{com.jym.gcmall/}" drawable="com_jym_gcmall" />
+    <item component="ComponentInfo{com.kaixinkan.ugc.video/}" drawable="com_kaixinkan_ugc_video" />
+    <item component="ComponentInfo{com.keramidas.titaniumbackup/}" drawable="com_keramidas_titaniumbackup" />
+    <item component="ComponentInfo{com.kingosoft.activity.kb.common/}" drawable="com_kingosoft_activity_kb_common" />
+    <item component="ComponentInfo{com.kmxs.reader/}" drawable="com_kmxs_reader" />
+    <item component="ComponentInfo{com.knight.union.mi/}" drawable="com_knight_union_mi" />
+    <item component="ComponentInfo{com.knight.union.yyh/}" drawable="com_knight_union_yyh" />
+    <item component="ComponentInfo{com.komoe.kmumamusumegp/}" drawable="com_komoe_kmumamusumegp" />
+    <item component="ComponentInfo{com.koudai.weidian.buyer/}" drawable="com_koudai_weidian_buyer" />
+    <item component="ComponentInfo{com.koudai.weishop/}" drawable="com_koudai_weishop" />
+    <item component="ComponentInfo{com.kuaiduizuoye.scan/}" drawable="com_kuaiduizuoye_scan" />
+    <item component="ComponentInfo{com.kuaishou.nebula/}" drawable="com_kuaishou_nebula" />
+    <item component="ComponentInfo{com.kugou.android/}" drawable="com_kugou_android" />
+    <item component="ComponentInfo{com.kugou.android.lite/}" drawable="com_kugou_android_lite" />
+    <item component="ComponentInfo{com.kurogame.haru.aligames/}" drawable="com_kurogame_haru_aligames" />
+    <item component="ComponentInfo{com.kurogame.haru.bilibili/}" drawable="com_kurogame_haru_bilibili" />
+    <item component="ComponentInfo{com.kurogame.haru.cloud/}" drawable="com_kurogame_haru_cloud" />
+    <item component="ComponentInfo{com.kurogame.haru.hero/}" drawable="com_kurogame_haru_hero" />
+    <item component="ComponentInfo{com.kurogame.haru.m4399/}" drawable="com_kurogame_haru_m4399" />
+    <item component="ComponentInfo{com.kurogame.haru.mi/}" drawable="com_kurogame_haru_mi" />
+    <item component="ComponentInfo{com.kurogame.kjq/}" drawable="com_kurogame_kjq" />
+    <item component="ComponentInfo{com.kurogame.mingchao/}" drawable="com_kurogame_mingchao" />
+    <item component="ComponentInfo{com.kurogame.mingchao.bilibili/}" drawable="com_kurogame_mingchao_bilibili" />
+    <item component="ComponentInfo{com.kurogame.wutheringwaves.global/}" drawable="com_kurogame_wutheringwaves_global" />
+    <item component="ComponentInfo{com.kuro.cloudgame/}" drawable="com_kuro_cloudgame" />
+    <item component="ComponentInfo{com.kwai.m2u/}" drawable="com_kwai_m2u" />
+    <item component="ComponentInfo{com.lalamove.huolala.client/}" drawable="com_lalamove_huolala_client" />
+    <item component="ComponentInfo{com.lanerc.app/}" drawable="com_lanerc_app" />
+    <item component="ComponentInfo{com.lanjiyin.lanjiyin/}" drawable="com_lanjiyin_lanjiyin" />
+    <item component="ComponentInfo{com.larus.nova/}" drawable="com_larus_nova" />
+    <item component="ComponentInfo{com.legado.app.release/}" drawable="com_legado_app_release" />
+    <item component="ComponentInfo{com.leiting.ldgj/}" drawable="com_leiting_ldgj" />
+    <item component="ComponentInfo{com.lemon.lv/}" drawable="com_lemon_lv" />
+    <item component="ComponentInfo{com.levelinfinite.sgameglobal/}" drawable="com_levelinfinite_sgameglobal" />
+    <item component="ComponentInfo{com.levelinfinite.sgameglobal.midaspay/}" drawable="com_levelinfinite_sgameglobal_midaspay" />
+    <item component="ComponentInfo{com.liangwu.yqqs.honor/}" drawable="com_liangwu_yqqs_honor" />
+    <item component="ComponentInfo{com.liangwu.yuanqiqishi.vivo/}" drawable="com_liangwu_yuanqiqishi_vivo" />
+    <item component="ComponentInfo{com.lianjia.beike/}" drawable="com_lianjia_beike" />
+    <item component="ComponentInfo{com.lilithgames.solarland.android.cn/}" drawable="com_lilithgames_solarland_android_cn" />
+    <item component="ComponentInfo{com.lingxigames.sh2xzg/}" drawable="com_lingxigames_sh2xzg" />
+    <item component="ComponentInfo{com.lingxigames.sh2xzg.bilibili/}" drawable="com_lingxigames_sh2xzg_bilibili" />
+    <item component="ComponentInfo{com.lingxigames.sh2xzg.mi/}" drawable="com_lingxigames_sh2xzg_mi" />
+    <item component="ComponentInfo{com.llmm.huiyuanuxiang/}" drawable="com_llmm_huiyuanuxiang" />
+    <item component="ComponentInfo{com.lofter.android/}" drawable="com_lofter_android" />
+    <item component="ComponentInfo{com.lptiyu.tanke/}" drawable="com_lptiyu_tanke" />
+    <item component="ComponentInfo{com.lucky.luckyclient/}" drawable="com_lucky_luckyclient" />
+    <item component="ComponentInfo{com.luna.music/}" drawable="com_luna_music" />
+    <item component="ComponentInfo{com.lvcha.main/}" drawable="com_lvcha_main" />
+    <item component="ComponentInfo{com.lynkco.customer/}" drawable="com_lynkco_customer" />
+    <item component="ComponentInfo{com.m4399.gamecenter/}" drawable="com_m4399_gamecenter" />
+    <item component="ComponentInfo{com.maimemo.android.momo/}" drawable="com_maimemo_android_momo" />
+    <item component="ComponentInfo{com.manmanbuy.bijia/}" drawable="com_manmanbuy_bijia" />
+    <item component="ComponentInfo{com.max.xiaoheihe/}" drawable="com_max_xiaoheihe" />
+    <item component="ComponentInfo{com.mcdonalds.gma.cn/}" drawable="com_mcdonalds_gma_cn" />
+    <item component="ComponentInfo{com.megagame.crosscore/}" drawable="com_megagame_crosscore" />
+    <item component="ComponentInfo{com.megagame.crosscore.bilibili/}" drawable="com_megagame_crosscore_bilibili" />
+    <item component="ComponentInfo{com.meizu.media.music/}" drawable="com_meizu_media_music" />
+    <item component="ComponentInfo{com.mfcloudcalculate.networkdisk/}" drawable="com_mfcloudcalculate_networkdisk" />
+    <item component="ComponentInfo{com.mfw.roadbook/}" drawable="com_mfw_roadbook" />
+    <item component="ComponentInfo{com.microsoft.emmx/}" drawable="com_microsoft_emmx" />
+    <item component="ComponentInfo{com.microsoft.office.officehubrow/}" drawable="com_microsoft_office_officehubrow" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/}" drawable="com_microsoft_office_outlook" />
+    <item component="ComponentInfo{com.microsoft.rdc.androidx/}" drawable="com_microsoft_rdc_androidx" />
+    <item component="ComponentInfo{com.microsoft.skydrive/}" drawable="com_microsoft_skydrive" />
+    <item component="ComponentInfo{com.microsoft.todos/}" drawable="com_microsoft_todos" />
+    <item component="ComponentInfo{com.microsoft.xboxone.smartglass/}" drawable="com_microsoft_xboxone_smartglass" />
+    <item component="ComponentInfo{com.midea.vm.washer/}" drawable="com_midea_vm_washer" />
+    <item component="ComponentInfo{com.mihoyo.bh3global/}" drawable="com_mihoyo_bh3global" />
+    <item component="ComponentInfo{com.mihoyo.bh3tw/}" drawable="com_mihoyo_bh3tw" />
+    <item component="ComponentInfo{com.mihoyo.bh3.bilibili/}" drawable="com_mihoyo_bh3_bilibili" />
+    <item component="ComponentInfo{com.mihoyo.bh3.huawei/}" drawable="com_mihoyo_bh3_huawei" />
+    <item component="ComponentInfo{com.mihoyo.bh3.mi/}" drawable="com_mihoyo_bh3_mi" />
+    <item component="ComponentInfo{com.mihoyo.bh3.mz/}" drawable="com_mihoyo_bh3_mz" />
+    <item component="ComponentInfo{com.mihoyo.bh3.nearme.gamecenter/}" drawable="com_mihoyo_bh3_nearme_gamecenter" />
+    <item component="ComponentInfo{com.mihoyo.bh3.uc/}" drawable="com_mihoyo_bh3_uc" />
+    <item component="ComponentInfo{com.mihoyo.bh3.vivo/}" drawable="com_mihoyo_bh3_vivo" />
+    <item component="ComponentInfo{com.mihoyo.cloudgames.hkrpg/}" drawable="com_mihoyo_cloudgames_hkrpg" />
+    <item component="ComponentInfo{com.mihoyo.cloudgames.nap/}" drawable="com_mihoyo_cloudgames_nap" />
+    <item component="ComponentInfo{com.mihoyo.cloudgames.ys/}" drawable="com_mihoyo_cloudgames_ys" />
+    <item component="ComponentInfo{com.mihoyo.enterprise.nghsod/}" drawable="com_mihoyo_enterprise_nghsod" />
+    <item component="ComponentInfo{com.mihoyo.game2144.mi/}" drawable="com_mihoyo_game2144_mi" />
+    <item component="ComponentInfo{com.mihoyo.genshinimpact/}" drawable="com_mihoyo_genshinimpact" />
+    <item component="ComponentInfo{com.mihoyo.hkrpg/}" drawable="com_mihoyo_hkrpg" />
+    <item component="ComponentInfo{com.mihoyo.hkrpg.bilibili/}" drawable="com_mihoyo_hkrpg_bilibili" />
+    <item component="ComponentInfo{com.mihoyo.hsodv22144.nearme.gamecenter/}" drawable="com_mihoyo_hsodv22144_nearme_gamecenter" />
+    <item component="ComponentInfo{com.mihoyo.hsodv22144.tencent/}" drawable="com_mihoyo_hsodv22144_tencent" />
+    <item component="ComponentInfo{com.mihoyo.hsodv22144.uc/}" drawable="com_mihoyo_hsodv22144_uc" />
+    <item component="ComponentInfo{com.mihoyo.hsodv22144.vivo/}" drawable="com_mihoyo_hsodv22144_vivo" />
+    <item component="ComponentInfo{com.mihoyo.hsodv22144.yyh/}" drawable="com_mihoyo_hsodv22144_yyh" />
+    <item component="ComponentInfo{com.mihoyo.hsodv2bilibilirelease/}" drawable="com_mihoyo_hsodv2bilibilirelease" />
+    <item component="ComponentInfo{com.mihoyo.hsodv2original/}" drawable="com_mihoyo_hsodv2original" />
+    <item component="ComponentInfo{com.mihoyo.hsodv2.huawei/}" drawable="com_mihoyo_hsodv2_huawei" />
+    <item component="ComponentInfo{com.mihoyo.hyperion/}" drawable="com_mihoyo_hyperion" />
+    <item component="ComponentInfo{com.mihoyo.nap/}" drawable="com_mihoyo_nap" />
+    <item component="ComponentInfo{com.mihoyo.nap.bilibili/}" drawable="com_mihoyo_nap_bilibili" />
+    <item component="ComponentInfo{com.mihoyo.ys.bilibili/}" drawable="com_mihoyo_ys_bilibili" />
+    <item component="ComponentInfo{com.mihoyo.yuanshen/}" drawable="com_mihoyo_yuanshen" />
+    <item component="ComponentInfo{com.mingrifangzhou.mi/}" drawable="com_mingrifangzhou_mi" />
+    <item component="ComponentInfo{com.minitech.miniworld/}" drawable="com_minitech_miniworld" />
+    <item component="ComponentInfo{com.minitech.miniworld.honor/}" drawable="com_minitech_miniworld_honor" />
+    <item component="ComponentInfo{com.minitech.miniworld.huawei/}" drawable="com_minitech_miniworld_huawei" />
+    <item component="ComponentInfo{com.minitech.miniworld.m4399/}" drawable="com_minitech_miniworld_m4399" />
+    <item component="ComponentInfo{com.minitech.miniworld.meizu/}" drawable="com_minitech_miniworld_meizu" />
+    <item component="ComponentInfo{com.minitech.miniworld.nearme.gamecenter/}" drawable="com_minitech_miniworld_nearme_gamecenter" />
+    <item component="ComponentInfo{com.minitech.miniworld.tmobile.mi/}" drawable="com_minitech_miniworld_tmobile_mi" />
+    <item component="ComponentInfo{com.minitech.miniworld.vivo/}" drawable="com_minitech_miniworld_vivo" />
+    <item component="ComponentInfo{com.mi.health/}" drawable="com_mi_health" />
+    <item component="ComponentInfo{com.mmbox.xbrowser/}" drawable="com_mmbox_xbrowser" />
+    <item component="ComponentInfo{com.mobileticket/}" drawable="com_mobileticket" />
+    <item component="ComponentInfo{com.mojang.minecraftpe/}" drawable="com_mojang_minecraftpe" />
+    <item component="ComponentInfo{com.moji.mjweather/}" drawable="com_moji_mjweather" />
+    <item component="ComponentInfo{com.moondroplab.moondrop.moondrop.app/}" drawable="com_moondroplab_moondrop_moondrop_app" />
+    <item component="ComponentInfo{com.moonshot.kimichat/}" drawable="com_moonshot_kimichat" />
+    <item component="ComponentInfo{com.mosoink.teach/}" drawable="com_mosoink_teach" />
+    <item component="ComponentInfo{com.movie.hhdfly/}" drawable="com_movie_hhdfly" />
+    <item component="ComponentInfo{com.mubu.app/}" drawable="com_mubu_app" />
+    <item component="ComponentInfo{com.music.moment/}" drawable="com_music_moment" />
+    <item component="ComponentInfo{com.mutangtech.qianji/}" drawable="com_mutangtech_qianji" />
+    <item component="ComponentInfo{com.mygolbs.mybus/}" drawable="com_mygolbs_mybus" />
+    <item component="ComponentInfo{com.ncarzone.tmyc/}" drawable="com_ncarzone_tmyc" />
+    <item component="ComponentInfo{com.nd.he.gamename.m4399/}" drawable="com_nd_he_gamename_m4399" />
+    <item component="ComponentInfo{com.nd.he.huawei/}" drawable="com_nd_he_huawei" />
+    <item component="ComponentInfo{com.nd.he.mi/}" drawable="com_nd_he_mi" />
+    <item component="ComponentInfo{com.nd.he.official/}" drawable="com_nd_he_official" />
+    <item component="ComponentInfo{com.nd.he.vivo/}" drawable="com_nd_he_vivo" />
+    <item component="ComponentInfo{com.nekootan.kfkj.android/}" drawable="com_nekootan_kfkj_android" />
+    <item component="ComponentInfo{com.nekootan.kfkj.bilibili/}" drawable="com_nekootan_kfkj_bilibili" />
+    <item component="ComponentInfo{com.nekootan.kfkj.yhlm.nearme.gamecenter/}" drawable="com_nekootan_kfkj_yhlm_nearme_gamecenter" />
+    <item component="ComponentInfo{com.neowizgames.game.browndust2/}" drawable="com_neowizgames_game_browndust2" />
+    <item component="ComponentInfo{com.netease.aceracer/}" drawable="com_netease_aceracer" />
+    <item component="ComponentInfo{com.netease.aceracer.bilibili/}" drawable="com_netease_aceracer_bilibili" />
+    <item component="ComponentInfo{com.netease.aceracer.huawei/}" drawable="com_netease_aceracer_huawei" />
+    <item component="ComponentInfo{com.netease.aceracer.m4399/}" drawable="com_netease_aceracer_m4399" />
+    <item component="ComponentInfo{com.netease.aceracer.mi/}" drawable="com_netease_aceracer_mi" />
+    <item component="ComponentInfo{com.netease.aceracer.mz/}" drawable="com_netease_aceracer_mz" />
+    <item component="ComponentInfo{com.netease.aceracer.nearme.gamecenter/}" drawable="com_netease_aceracer_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.aceracer.vivo/}" drawable="com_netease_aceracer_vivo" />
+    <item component="ComponentInfo{com.netease.buff/}" drawable="com_netease_buff" />
+    <item component="ComponentInfo{com.netease.cloudmusic/}" drawable="com_netease_cloudmusic" />
+    <item component="ComponentInfo{com.netease.dfjs.huawei/}" drawable="com_netease_dfjs_huawei" />
+    <item component="ComponentInfo{com.netease.dfjs.m4399/}" drawable="com_netease_dfjs_m4399" />
+    <item component="ComponentInfo{com.netease.dfjs.nearme.gamecenter/}" drawable="com_netease_dfjs_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.dfjs.vivo/}" drawable="com_netease_dfjs_vivo" />
+    <item component="ComponentInfo{com.netease.dwrg/}" drawable="com_netease_dwrg" />
+    <item component="ComponentInfo{com.netease.dwrg5.vivo/}" drawable="com_netease_dwrg5_vivo" />
+    <item component="ComponentInfo{com.netease.dwrg.aligames/}" drawable="com_netease_dwrg_aligames" />
+    <item component="ComponentInfo{com.netease.dwrg.bili/}" drawable="com_netease_dwrg_bili" />
+    <item component="ComponentInfo{com.netease.dwrg.huawei/}" drawable="com_netease_dwrg_huawei" />
+    <item component="ComponentInfo{com.netease.dwrg.m4399/}" drawable="com_netease_dwrg_m4399" />
+    <item component="ComponentInfo{com.netease.dwrg.mi/}" drawable="com_netease_dwrg_mi" />
+    <item component="ComponentInfo{com.netease.dwrg.mz/}" drawable="com_netease_dwrg_mz" />
+    <item component="ComponentInfo{com.netease.dwrg.nearme.gamecenter/}" drawable="com_netease_dwrg_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.dwrg.yyh/}" drawable="com_netease_dwrg_yyh" />
+    <item component="ComponentInfo{com.netease.gl/}" drawable="com_netease_gl" />
+    <item component="ComponentInfo{com.netease.hyxd/}" drawable="com_netease_hyxd" />
+    <item component="ComponentInfo{com.netease.hyxd.aligames/}" drawable="com_netease_hyxd_aligames" />
+    <item component="ComponentInfo{com.netease.hyxd.huawei/}" drawable="com_netease_hyxd_huawei" />
+    <item component="ComponentInfo{com.netease.hyxd.m4399/}" drawable="com_netease_hyxd_m4399" />
+    <item component="ComponentInfo{com.netease.hyxd.mi/}" drawable="com_netease_hyxd_mi" />
+    <item component="ComponentInfo{com.netease.hyxd.nearme.gamecenter/}" drawable="com_netease_hyxd_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.hyxd.vivo/}" drawable="com_netease_hyxd_vivo" />
+    <item component="ComponentInfo{com.netease.idv.googleplay/}" drawable="com_netease_idv_googleplay" />
+    <item component="ComponentInfo{com.netease.ko/}" drawable="com_netease_ko" />
+    <item component="ComponentInfo{com.netease.l22/}" drawable="com_netease_l22" />
+    <item component="ComponentInfo{com.netease.l22.huawei/}" drawable="com_netease_l22_huawei" />
+    <item component="ComponentInfo{com.netease.l22.mi/}" drawable="com_netease_l22_mi" />
+    <item component="ComponentInfo{com.netease.l22.nearme.gamecenter/}" drawable="com_netease_l22_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.l22.vivo/}" drawable="com_netease_l22_vivo" />
+    <item component="ComponentInfo{com.netease.ma84/}" drawable="com_netease_ma84" />
+    <item component="ComponentInfo{com.netease.mail/}" drawable="com_netease_mail" />
+    <item component="ComponentInfo{com.netease.mc.bili/}" drawable="com_netease_mc_bili" />
+    <item component="ComponentInfo{com.netease.mc.mi/}" drawable="com_netease_mc_mi" />
+    <item component="ComponentInfo{com.netease.mc.nearme.gamecenter/}" drawable="com_netease_mc_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.micro.nshm/}" drawable="com_netease_micro_nshm" />
+    <item component="ComponentInfo{com.netease.moba/}" drawable="com_netease_moba" />
+    <item component="ComponentInfo{com.netease.moba.bili/}" drawable="com_netease_moba_bili" />
+    <item component="ComponentInfo{com.netease.moba.huawei/}" drawable="com_netease_moba_huawei" />
+    <item component="ComponentInfo{com.netease.moba.m4399/}" drawable="com_netease_moba_m4399" />
+    <item component="ComponentInfo{com.netease.moba.mi/}" drawable="com_netease_moba_mi" />
+    <item component="ComponentInfo{com.netease.moba.nearme.gamecenter/}" drawable="com_netease_moba_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.moba.vivo/}" drawable="com_netease_moba_vivo" />
+    <item component="ComponentInfo{com.netease.moba.yyh/}" drawable="com_netease_moba_yyh" />
+    <item component="ComponentInfo{com.netease.mobimail/}" drawable="com_netease_mobimail" />
+    <item component="ComponentInfo{com.netease.mrzh/}" drawable="com_netease_mrzh" />
+    <item component="ComponentInfo{com.netease.mrzh.bilibili/}" drawable="com_netease_mrzh_bilibili" />
+    <item component="ComponentInfo{com.netease.mrzh.huawei/}" drawable="com_netease_mrzh_huawei" />
+    <item component="ComponentInfo{com.netease.mrzh.m4399/}" drawable="com_netease_mrzh_m4399" />
+    <item component="ComponentInfo{com.netease.mrzh.mi/}" drawable="com_netease_mrzh_mi" />
+    <item component="ComponentInfo{com.netease.mrzh.mz/}" drawable="com_netease_mrzh_mz" />
+    <item component="ComponentInfo{com.netease.mrzh.nearme.gamecenter/}" drawable="com_netease_mrzh_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.mrzh.vivo/}" drawable="com_netease_mrzh_vivo" />
+    <item component="ComponentInfo{com.netease.mrzh.yyh/}" drawable="com_netease_mrzh_yyh" />
+    <item component="ComponentInfo{com.netease.nshm/}" drawable="com_netease_nshm" />
+    <item component="ComponentInfo{com.netease.nshm.huawei/}" drawable="com_netease_nshm_huawei" />
+    <item component="ComponentInfo{com.netease.nshm.mi/}" drawable="com_netease_nshm_mi" />
+    <item component="ComponentInfo{com.netease.nshm.nearme.gamecenter/}" drawable="com_netease_nshm_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.nshm.vivo/}" drawable="com_netease_nshm_vivo" />
+    <item component="ComponentInfo{com.netease.onmyoji/}" drawable="com_netease_onmyoji" />
+    <item component="ComponentInfo{com.netease.onmyoji.appchina/}" drawable="com_netease_onmyoji_appchina" />
+    <item component="ComponentInfo{com.netease.onmyoji.bili/}" drawable="com_netease_onmyoji_bili" />
+    <item component="ComponentInfo{com.netease.onmyoji.m4399/}" drawable="com_netease_onmyoji_m4399" />
+    <item component="ComponentInfo{com.netease.onmyoji.mi/}" drawable="com_netease_onmyoji_mi" />
+    <item component="ComponentInfo{com.netease.onmyoji.mz/}" drawable="com_netease_onmyoji_mz" />
+    <item component="ComponentInfo{com.netease.onmyoji.nearme.gamecenter/}" drawable="com_netease_onmyoji_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.party/}" drawable="com_netease_party" />
+    <item component="ComponentInfo{com.netease.party.honor/}" drawable="com_netease_party_honor" />
+    <item component="ComponentInfo{com.netease.party.huawei/}" drawable="com_netease_party_huawei" />
+    <item component="ComponentInfo{com.netease.party.mi/}" drawable="com_netease_party_mi" />
+    <item component="ComponentInfo{com.netease.party.mz/}" drawable="com_netease_party_mz" />
+    <item component="ComponentInfo{com.netease.party.nearme.gamecenter/}" drawable="com_netease_party_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.party.vivo/}" drawable="com_netease_party_vivo" />
+    <item component="ComponentInfo{com.netease.qrsj/}" drawable="com_netease_qrsj" />
+    <item component="ComponentInfo{com.netease.qrsj.huawei/}" drawable="com_netease_qrsj_huawei" />
+    <item component="ComponentInfo{com.netease.qrsj.m4399/}" drawable="com_netease_qrsj_m4399" />
+    <item component="ComponentInfo{com.netease.qrsj.mi/}" drawable="com_netease_qrsj_mi" />
+    <item component="ComponentInfo{com.netease.qrsj.nearme.gamecenter/}" drawable="com_netease_qrsj_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.qrsj.vivo/}" drawable="com_netease_qrsj_vivo" />
+    <item component="ComponentInfo{com.netease.qrzd/}" drawable="com_netease_qrzd" />
+    <item component="ComponentInfo{com.netease.qrzd.bili/}" drawable="com_netease_qrzd_bili" />
+    <item component="ComponentInfo{com.netease.qrzd.huawei/}" drawable="com_netease_qrzd_huawei" />
+    <item component="ComponentInfo{com.netease.qrzd.m4399/}" drawable="com_netease_qrzd_m4399" />
+    <item component="ComponentInfo{com.netease.qrzd.mi/}" drawable="com_netease_qrzd_mi" />
+    <item component="ComponentInfo{com.netease.qrzd.vivo/}" drawable="com_netease_qrzd_vivo" />
+    <item component="ComponentInfo{com.netease.race/}" drawable="com_netease_race" />
+    <item component="ComponentInfo{com.netease.sky/}" drawable="com_netease_sky" />
+    <item component="ComponentInfo{com.netease.sky.aligames/}" drawable="com_netease_sky_aligames" />
+    <item component="ComponentInfo{com.netease.sky.bilibili/}" drawable="com_netease_sky_bilibili" />
+    <item component="ComponentInfo{com.netease.sky.huawei/}" drawable="com_netease_sky_huawei" />
+    <item component="ComponentInfo{com.netease.sky.m4399/}" drawable="com_netease_sky_m4399" />
+    <item component="ComponentInfo{com.netease.sky.mi/}" drawable="com_netease_sky_mi" />
+    <item component="ComponentInfo{com.netease.sky.nearme.gamecenter/}" drawable="com_netease_sky_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.sky.vivo/}" drawable="com_netease_sky_vivo" />
+    <item component="ComponentInfo{com.netease.uu/}" drawable="com_netease_uu" />
+    <item component="ComponentInfo{com.netease.uuremote/}" drawable="com_netease_uuremote" />
+    <item component="ComponentInfo{com.netease.x19/}" drawable="com_netease_x19" />
+    <item component="ComponentInfo{com.netease.yhtj/}" drawable="com_netease_yhtj" />
+    <item component="ComponentInfo{com.netease.yhtj.bilibili/}" drawable="com_netease_yhtj_bilibili" />
+    <item component="ComponentInfo{com.netease.yhtj.huawei/}" drawable="com_netease_yhtj_huawei" />
+    <item component="ComponentInfo{com.netease.yhtj.m4399/}" drawable="com_netease_yhtj_m4399" />
+    <item component="ComponentInfo{com.netease.yhtj.mi/}" drawable="com_netease_yhtj_mi" />
+    <item component="ComponentInfo{com.netease.yhtj.nearme.gamecenter/}" drawable="com_netease_yhtj_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.yhtj.vivo/}" drawable="com_netease_yhtj_vivo" />
+    <item component="ComponentInfo{com.netease.yysbwp/}" drawable="com_netease_yysbwp" />
+    <item component="ComponentInfo{com.netease.yysbwp.bilibili/}" drawable="com_netease_yysbwp_bilibili" />
+    <item component="ComponentInfo{com.netease.yysbwp.huawei/}" drawable="com_netease_yysbwp_huawei" />
+    <item component="ComponentInfo{com.netease.yysbwp.m4399/}" drawable="com_netease_yysbwp_m4399" />
+    <item component="ComponentInfo{com.netease.yysbwp.mi/}" drawable="com_netease_yysbwp_mi" />
+    <item component="ComponentInfo{com.netease.yysbwp.nearme.gamecenter/}" drawable="com_netease_yysbwp_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.yysbwp.vivo/}" drawable="com_netease_yysbwp_vivo" />
+    <item component="ComponentInfo{com.netease.yyslscn/}" drawable="com_netease_yyslscn" />
+    <item component="ComponentInfo{com.netease.yyslscn.huawei/}" drawable="com_netease_yyslscn_huawei" />
+    <item component="ComponentInfo{com.netease.yyslscn.mi/}" drawable="com_netease_yyslscn_mi" />
+    <item component="ComponentInfo{com.netease.yzs/}" drawable="com_netease_yzs" />
+    <item component="ComponentInfo{com.netease.yzs.bili/}" drawable="com_netease_yzs_bili" />
+    <item component="ComponentInfo{com.netease.yzs.huawei/}" drawable="com_netease_yzs_huawei" />
+    <item component="ComponentInfo{com.netease.yzs.mi/}" drawable="com_netease_yzs_mi" />
+    <item component="ComponentInfo{com.netease.yzs.nearme.gamecenter/}" drawable="com_netease_yzs_nearme_gamecenter" />
+    <item component="ComponentInfo{com.netease.yzs.vivo/}" drawable="com_netease_yzs_vivo" />
+    <item component="ComponentInfo{com.network.xfjsq/}" drawable="com_network_xfjsq" />
+    <item component="ComponentInfo{com.newcapec.mobile.ncp/}" drawable="com_newcapec_mobile_ncp" />
+    <item component="ComponentInfo{com.nexon.bluearchive/}" drawable="com_nexon_bluearchive" />
+    <item component="ComponentInfo{com.nn.accelerator.box/}" drawable="com_nn_accelerator_box" />
+    <item component="ComponentInfo{com.noctuasoftware.stellarium.free/}" drawable="com_noctuasoftware_stellarium_free" />
+    <item component="ComponentInfo{com.noctuasoftware.stellarium.plus/}" drawable="com_noctuasoftware_stellarium_plus" />
+    <item component="ComponentInfo{com.ocd.battery/}" drawable="com_ocd_battery" />
+    <item component="ComponentInfo{com.offcn.android.offcn/}" drawable="com_offcn_android_offcn" />
+    <item component="ComponentInfo{com.omarea.vtools/}" drawable="com_omarea_vtools" />
+    <item component="ComponentInfo{com.one.woodenletter/}" drawable="com_one_woodenletter" />
+    <item component="ComponentInfo{com.openai.chatgpt/}" drawable="com_openai_chatgpt" />
+    <item component="ComponentInfo{com.ophone.reader.ui/}" drawable="com_ophone_reader_ui" />
+    <item component="ComponentInfo{com.paget96.batteryguru/}" drawable="com_paget96_batteryguru" />
+    <item component="ComponentInfo{com.pandadastudio.ninjamustdie3/}" drawable="com_pandadastudio_ninjamustdie3" />
+    <item component="ComponentInfo{com.pandadastudio.ninjamustdie3.bilibili/}" drawable="com_pandadastudio_ninjamustdie3_bilibili" />
+    <item component="ComponentInfo{com.pandadastudio.ninjamustdie3.huawei/}" drawable="com_pandadastudio_ninjamustdie3_huawei" />
+    <item component="ComponentInfo{com.pandadastudio.ninjamustdie3.m4399/}" drawable="com_pandadastudio_ninjamustdie3_m4399" />
+    <item component="ComponentInfo{com.pandadastudio.ninjamustdie3.mi/}" drawable="com_pandadastudio_ninjamustdie3_mi" />
+    <item component="ComponentInfo{com.pandadastudio.ninjamustdie3.nearme.gamecenter/}" drawable="com_pandadastudio_ninjamustdie3_nearme_gamecenter" />
+    <item component="ComponentInfo{com.pandadastudio.ninjamustdie3.vivo/}" drawable="com_pandadastudio_ninjamustdie3_vivo" />
+    <item component="ComponentInfo{com.papegames.infinitynikki/}" drawable="com_papegames_infinitynikki" />
+    <item component="ComponentInfo{com.papegames.infinitynikki.bilibili/}" drawable="com_papegames_infinitynikki_bilibili" />
+    <item component="ComponentInfo{com.pavostudio.live2dviewerex/}" drawable="com_pavostudio_live2dviewerex" />
+    <item component="ComponentInfo{com.paypal.android.p2pmobile/}" drawable="com_paypal_android_p2pmobile" />
+    <item component="ComponentInfo{com.peopledailychina.activity/}" drawable="com_peopledailychina_activity" />
+    <item component="ComponentInfo{com.perol.pixez/}" drawable="com_perol_pixez" />
+    <item component="ComponentInfo{com.perol.play.pixez/}" drawable="com_perol_play_pixez" />
+    <item component="ComponentInfo{com.phoenix.read/}" drawable="com_phoenix_read" />
+    <item component="ComponentInfo{com.phoenix.read.oversea.gp/}" drawable="com_phoenix_read_oversea_gp" />
+    <item component="ComponentInfo{com.picacg.picacomic/}" drawable="com_picacg_picacomic" />
+    <item component="ComponentInfo{com.picacomic.fregata/}" drawable="com_picacomic_fregata" />
+    <item component="ComponentInfo{com.picacomic.picacg.picacg/}" drawable="com_picacomic_picacg_picacg" />
+    <item component="ComponentInfo{com.pigeongames.phigros/}" drawable="com_pigeongames_phigros" />
+    <item component="ComponentInfo{com.pingan.carowner/}" drawable="com_pingan_carowner" />
+    <item component="ComponentInfo{com.pingan.paces.ccms/}" drawable="com_pingan_paces_ccms" />
+    <item component="ComponentInfo{com.playdigious.deadcells.epic/}" drawable="com_playdigious_deadcells_epic" />
+    <item component="ComponentInfo{com.playdigious.deadcells.mobile/}" drawable="com_playdigious_deadcells_mobile" />
+    <item component="ComponentInfo{com.playmini.miniworld/}" drawable="com_playmini_miniworld" />
+    <item component="ComponentInfo{com.popcap.pvz2cthdamz/}" drawable="com_popcap_pvz2cthdamz" />
+    <item component="ComponentInfo{com.popcap.pvz2cthdbbg/}" drawable="com_popcap_pvz2cthdbbg" />
+    <item component="ComponentInfo{com.popcap.pvz2cthdbk/}" drawable="com_popcap_pvz2cthdbk" />
+    <item component="ComponentInfo{com.popcap.pvz2cthdhwct/}" drawable="com_popcap_pvz2cthdhwct" />
+    <item component="ComponentInfo{com.popcap.pvz2cthdop/}" drawable="com_popcap_pvz2cthdop" />
+    <item component="ComponentInfo{com.popcap.pvz2cthdxm/}" drawable="com_popcap_pvz2cthdxm" />
+    <item component="ComponentInfo{com.popcap.pvz2cthd.bilibili/}" drawable="com_popcap_pvz2cthd_bilibili" />
+    <item component="ComponentInfo{com.popcap.pvz2cthd.honor/}" drawable="com_popcap_pvz2cthd_honor" />
+    <item component="ComponentInfo{com.predidit.kazumi/}" drawable="com_predidit_kazumi" />
+    <item component="ComponentInfo{com.proximabeta.nikke/}" drawable="com_proximabeta_nikke" />
+    <item component="ComponentInfo{com.prpr.musedash/}" drawable="com_prpr_musedash" />
+    <item component="ComponentInfo{com.prpr.musedash.taptap/}" drawable="com_prpr_musedash_taptap" />
+    <item component="ComponentInfo{com.psyone.brainmusic/}" drawable="com_psyone_brainmusic" />
+    <item component="ComponentInfo{com.pupumall.customer/}" drawable="com_pupumall_customer" />
+    <item component="ComponentInfo{com.pwrd.hotta.laohu/}" drawable="com_pwrd_hotta_laohu" />
+    <item component="ComponentInfo{com.pwrd.htassistant/}" drawable="com_pwrd_htassistant" />
+    <item component="ComponentInfo{com.pwrd.p5x.bilibili/}" drawable="com_pwrd_p5x_bilibili" />
+    <item component="ComponentInfo{com.pwrd.persona5x.laohu/}" drawable="com_pwrd_persona5x_laohu" />
+    <item component="ComponentInfo{com.qb.qtranslator/}" drawable="com_qb_qtranslator" />
+    <item component="ComponentInfo{com.qidian.qdreader/}" drawable="com_qidian_qdreader" />
+    <item component="ComponentInfo{com.qihoo.namiso/}" drawable="com_qihoo_namiso" />
+    <item component="ComponentInfo{com.qiyi.video/}" drawable="com_qiyi_video" />
+    <item component="ComponentInfo{com.qiyi.video.lite/}" drawable="com_qiyi_video_lite" />
+    <item component="ComponentInfo{com.qiyi.video.pad/}" drawable="com_qiyi_video_pad" />
+    <item component="ComponentInfo{com.qooapp.qoohelper/}" drawable="com_qooapp_qoohelper" />
+    <item component="ComponentInfo{com.qookkagame.sgzhx.gp.jp/}" drawable="com_qookkagame_sgzhx_gp_jp" />
+    <item component="ComponentInfo{com.qqgame.happymj/}" drawable="com_qqgame_happymj" />
+    <item component="ComponentInfo{com.qq.ac.android/}" drawable="com_qq_ac_android" />
+    <item component="ComponentInfo{com.qq.qcloud/}" drawable="com_qq_qcloud" />
+    <item component="ComponentInfo{com.quark.browser/}" drawable="com_quark_browser" />
+    <item component="ComponentInfo{com.quark.clouddrive/}" drawable="com_quark_clouddrive" />
+    <item component="ComponentInfo{com.qunar/}" drawable="com_qunar" />
+    <item component="ComponentInfo{com.rayark.cytus2/}" drawable="com_rayark_cytus2" />
+    <item component="ComponentInfo{com.rayark.cytus.full/}" drawable="com_rayark_cytus_full" />
+    <item component="ComponentInfo{com.riotgames.league.teamfighttactics/}" drawable="com_riotgames_league_teamfighttactics" />
+    <item component="ComponentInfo{com.riotgames.league.wildrift/}" drawable="com_riotgames_league_wildrift" />
+    <item component="ComponentInfo{com.riotgames.league.wildrifttw/}" drawable="com_riotgames_league_wildrifttw" />
+    <item component="ComponentInfo{com.roamingstar.bluearchive/}" drawable="com_roamingstar_bluearchive" />
+    <item component="ComponentInfo{com.roamingstar.bluearchive.bilibili/}" drawable="com_roamingstar_bluearchive_bilibili" />
+    <item component="ComponentInfo{com.roamingstar.stellasora/}" drawable="com_roamingstar_stellasora" />
+    <item component="ComponentInfo{com.roamingstar.stellasora.bilibili/}" drawable="com_roamingstar_stellasora_bilibili" />
+    <item component="ComponentInfo{com.salt.music/}" drawable="com_salt_music" />
+    <item component="ComponentInfo{com.samsung.agc.gcam84/}" drawable="com_samsung_agc_gcam84" />
+    <item component="ComponentInfo{com.samsung.agc.gcam88/}" drawable="com_samsung_agc_gcam88" />
+    <item component="ComponentInfo{com.samsung.android.scan3d/}" drawable="com_samsung_android_scan3d" />
+    <item component="ComponentInfo{com.sanguosha.sgsolaxiaomi.mi/}" drawable="com_sanguosha_sgsolaxiaomi_mi" />
+    <item component="ComponentInfo{com.sanguosha.sgsolly.m4399/}" drawable="com_sanguosha_sgsolly_m4399" />
+    <item component="ComponentInfo{com.sankuai.meituan/}" drawable="com_sankuai_meituan" />
+    <item component="ComponentInfo{com.sankuai.meituan.dispatch.crowdsource/}" drawable="com_sankuai_meituan_dispatch_crowdsource" />
+    <item component="ComponentInfo{com.sankuai.meituan.takeoutnew/}" drawable="com_sankuai_meituan_takeoutnew" />
+    <item component="ComponentInfo{com.scee.psxandroid/}" drawable="com_scee_psxandroid" />
+    <item component="ComponentInfo{com.sdmnfowa.soad.p1/}" drawable="com_sdmnfowa_soad_p1" />
+    <item component="ComponentInfo{com.sdu.didi.psnger/}" drawable="com_sdu_didi_psnger" />
+    <item component="ComponentInfo{com.seasun.snowbreak.google/}" drawable="com_seasun_snowbreak_google" />
+    <item component="ComponentInfo{com.seayoo.ggd/}" drawable="com_seayoo_ggd" />
+    <item component="ComponentInfo{com.seayoo.ggd.bilibili/}" drawable="com_seayoo_ggd_bilibili" />
+    <item component="ComponentInfo{com.seayoo.ggd.honor/}" drawable="com_seayoo_ggd_honor" />
+    <item component="ComponentInfo{com.seayoo.ggd.huawei/}" drawable="com_seayoo_ggd_huawei" />
+    <item component="ComponentInfo{com.seayoo.ggd.m4399/}" drawable="com_seayoo_ggd_m4399" />
+    <item component="ComponentInfo{com.seayoo.ggd.mi/}" drawable="com_seayoo_ggd_mi" />
+    <item component="ComponentInfo{com.seayoo.ggd.nearme.gamecenter/}" drawable="com_seayoo_ggd_nearme_gamecenter" />
+    <item component="ComponentInfo{com.seayoo.ggd.vivo/}" drawable="com_seayoo_ggd_vivo" />
+    <item component="ComponentInfo{com.sega.colorfulstage.en/}" drawable="com_sega_colorfulstage_en" />
+    <item component="ComponentInfo{com.sega.pjsekai/}" drawable="com_sega_pjsekai" />
+    <item component="ComponentInfo{com.sennheiser.control/}" drawable="com_sennheiser_control" />
+    <item component="ComponentInfo{com.sf.activity/}" drawable="com_sf_activity" />
+    <item component="ComponentInfo{com.sgcc.cs/}" drawable="com_sgcc_cs" />
+    <item component="ComponentInfo{com.sgcc.wsgw.cn/}" drawable="com_sgcc_wsgw_cn" />
+    <item component="ComponentInfo{com.sgshd.nearme.gamecenter/}" drawable="com_sgshd_nearme_gamecenter" />
+    <item component="ComponentInfo{com.sgspad.nearme.gamecenter/}" drawable="com_sgspad_nearme_gamecenter" />
+    <item component="ComponentInfo{com.shanbay.sentence/}" drawable="com_shanbay_sentence" />
+    <item component="ComponentInfo{com.shenlan.m.reverse1999/}" drawable="com_shenlan_m_reverse1999" />
+    <item component="ComponentInfo{com.shenlan.m.reverse1999.bilibili/}" drawable="com_shenlan_m_reverse1999_bilibili" />
+    <item component="ComponentInfo{com.shenlan.m.reverse1999.huawei/}" drawable="com_shenlan_m_reverse1999_huawei" />
+    <item component="ComponentInfo{com.shenlan.m.reverse1999.mi/}" drawable="com_shenlan_m_reverse1999_mi" />
+    <item component="ComponentInfo{com.shizhuang.duapp/}" drawable="com_shizhuang_duapp" />
+    <item component="ComponentInfo{com.shizi.tool.p3/}" drawable="com_shizi_tool_p3" />
+    <item component="ComponentInfo{com.shizuku.uninstaller/}" drawable="com_shizuku_uninstaller" />
+    <item component="ComponentInfo{com.sialiagames.starg.gp.tw/}" drawable="com_sialiagames_starg_gp_tw" />
+    <item component="ComponentInfo{com.sina.weibo/}" drawable="com_sina_weibo" />
+    <item component="ComponentInfo{com.sina.weibolite/}" drawable="com_sina_weibolite" />
+    <item component="ComponentInfo{com.sinovatech.unicom.ui/}" drawable="com_sinovatech_unicom_ui" />
+    <item component="ComponentInfo{com.slkj.paotui.customer/}" drawable="com_slkj_paotui_customer" />
+    <item component="ComponentInfo{com.slkj.paotui.worker/}" drawable="com_slkj_paotui_worker" />
+    <item component="ComponentInfo{com.smile.gifmaker/}" drawable="com_smile_gifmaker" />
+    <item component="ComponentInfo{com.soft.blued/}" drawable="com_soft_blued" />
+    <item component="ComponentInfo{com.sofunny.sausage/}" drawable="com_sofunny_sausage" />
+    <item component="ComponentInfo{com.sohu.inputmethod.sogou/}" drawable="com_sohu_inputmethod_sogou" />
+    <item component="ComponentInfo{com.sonova.chb.control/}" drawable="com_sonova_chb_control" />
+    <item component="ComponentInfo{com.soulgamechst.majsoul/}" drawable="com_soulgamechst_majsoul" />
+    <item component="ComponentInfo{com.spotify.music/}" drawable="com_spotify_music" />
+    <item component="ComponentInfo{com.ss.android.article.lite/}" drawable="com_ss_android_article_lite" />
+    <item component="ComponentInfo{com.ss.android.article.news/}" drawable="com_ss_android_article_news" />
+    <item component="ComponentInfo{com.ss.android.auto/}" drawable="com_ss_android_auto" />
+    <item component="ComponentInfo{com.ss.android.lark/}" drawable="com_ss_android_lark" />
+    <item component="ComponentInfo{com.ss.android.ugc.aweme/}" drawable="com_ss_android_ugc_aweme" />
+    <item component="ComponentInfo{com.ss.android.ugc.aweme.lite/}" drawable="com_ss_android_ugc_aweme_lite" />
+    <item component="ComponentInfo{com.ss.android.ugc.aweme.mobile/}" drawable="com_ss_android_ugc_aweme_mobile" />
+    <item component="ComponentInfo{com.ss.android.ugc.livelite/}" drawable="com_ss_android_ugc_livelite" />
+    <item component="ComponentInfo{com.ss.android.yumme.video/}" drawable="com_ss_android_yumme_video" />
+    <item component="ComponentInfo{com.starbucks.cn/}" drawable="com_starbucks_cn" />
+    <item component="ComponentInfo{com.suda.yzune.wakeupschedule/}" drawable="com_suda_yzune_wakeupschedule" />
+    <item component="ComponentInfo{com.sunborn.snqxexilium/}" drawable="com_sunborn_snqxexilium" />
+    <item component="ComponentInfo{com.sunborn.snqxexilium.bilibili/}" drawable="com_sunborn_snqxexilium_bilibili" />
+    <item component="ComponentInfo{com.supercell.brawlstars/}" drawable="com_supercell_brawlstars" />
+    <item component="ComponentInfo{com.supercell.clashofclans/}" drawable="com_supercell_clashofclans" />
+    <item component="ComponentInfo{com.supercell.clashroyale/}" drawable="com_supercell_clashroyale" />
+    <item component="ComponentInfo{com.sup.android.slite/}" drawable="com_sup_android_slite" />
+    <item component="ComponentInfo{com.sup.android.superb/}" drawable="com_sup_android_superb" />
+    <item component="ComponentInfo{com.t3go.passenger/}" drawable="com_t3go_passenger" />
+    <item component="ComponentInfo{com.tanchjim.chengmao/}" drawable="com_tanchjim_chengmao" />
+    <item component="ComponentInfo{com.taobao.idlefish/}" drawable="com_taobao_idlefish" />
+    <item component="ComponentInfo{com.taobao.mobile.dipei/}" drawable="com_taobao_mobile_dipei" />
+    <item component="ComponentInfo{com.taobao.taobao/}" drawable="com_taobao_taobao" />
+    <item component="ComponentInfo{com.taobao.trip/}" drawable="com_taobao_trip" />
+    <item component="ComponentInfo{com.taomee.monster.seerh5/}" drawable="com_taomee_monster_seerh5" />
+    <item component="ComponentInfo{com.taptap/}" drawable="com_taptap" />
+    <item component="ComponentInfo{com.tencent.androidqqmail/}" drawable="com_tencent_androidqqmail" />
+    <item component="ComponentInfo{com.tencent.android.qqdownloader/}" drawable="com_tencent_android_qqdownloader" />
+    <item component="ComponentInfo{com.tencent.apps.valorant/}" drawable="com_tencent_apps_valorant" />
+    <item component="ComponentInfo{com.tencent.cmocmna/}" drawable="com_tencent_cmocmna" />
+    <item component="ComponentInfo{com.tencent.djcity/}" drawable="com_tencent_djcity" />
+    <item component="ComponentInfo{com.tencent.gamehelper.nz/}" drawable="com_tencent_gamehelper_nz" />
+    <item component="ComponentInfo{com.tencent.gamehelper.pg/}" drawable="com_tencent_gamehelper_pg" />
+    <item component="ComponentInfo{com.tencent.gamehelper.smoba/}" drawable="com_tencent_gamehelper_smoba" />
+    <item component="ComponentInfo{com.tencent.gamehelper.speed/}" drawable="com_tencent_gamehelper_speed" />
+    <item component="ComponentInfo{com.tencent.gamehelper.wuxia/}" drawable="com_tencent_gamehelper_wuxia" />
+    <item component="ComponentInfo{com.tencent.game.rhythmmaster/}" drawable="com_tencent_game_rhythmmaster" />
+    <item component="ComponentInfo{com.tencent.hhw/}" drawable="com_tencent_hhw" />
+    <item component="ComponentInfo{com.tencent.hunyuan.app.chat/}" drawable="com_tencent_hunyuan_app_chat" />
+    <item component="ComponentInfo{com.tencent.ig/}" drawable="com_tencent_ig" />
+    <item component="ComponentInfo{com.tencent.jkchess/}" drawable="com_tencent_jkchess" />
+    <item component="ComponentInfo{com.tencent.kihan/}" drawable="com_tencent_kihan" />
+    <item component="ComponentInfo{com.tencent.letsgo/}" drawable="com_tencent_letsgo" />
+    <item component="ComponentInfo{com.tencent.lolm/}" drawable="com_tencent_lolm" />
+    <item component="ComponentInfo{com.tencent.map/}" drawable="com_tencent_map" />
+    <item component="ComponentInfo{com.tencent.mf.uam/}" drawable="com_tencent_mf_uam" />
+    <item component="ComponentInfo{com.tencent.mm/}" drawable="com_tencent_mm" />
+    <item component="ComponentInfo{com.tencent.mobileqq/}" drawable="com_tencent_mobileqq" />
+    <item component="ComponentInfo{com.tencent.mtt/}" drawable="com_tencent_mtt" />
+    <item component="ComponentInfo{com.tencent.ngr/}" drawable="com_tencent_ngr" />
+    <item component="ComponentInfo{com.tencent.nikke/}" drawable="com_tencent_nikke" />
+    <item component="ComponentInfo{com.tencent.nrc/}" drawable="com_tencent_nrc" />
+    <item component="ComponentInfo{com.tencent.qqlive/}" drawable="com_tencent_qqlive" />
+    <item component="ComponentInfo{com.tencent.qqmusic/}" drawable="com_tencent_qqmusic" />
+    <item component="ComponentInfo{com.tencent.qt.qtl/}" drawable="com_tencent_qt_qtl" />
+    <item component="ComponentInfo{com.tencent.tgclub/}" drawable="com_tencent_tgclub" />
+    <item component="ComponentInfo{com.tencent.tim/}" drawable="com_tencent_tim" />
+    <item component="ComponentInfo{com.tencent.tmgp.aligames.kybc/}" drawable="com_tencent_tmgp_aligames_kybc" />
+    <item component="ComponentInfo{com.tencent.tmgp.bh3/}" drawable="com_tencent_tmgp_bh3" />
+    <item component="ComponentInfo{com.tencent.tmgp.bilibili.bangdream/}" drawable="com_tencent_tmgp_bilibili_bangdream" />
+    <item component="ComponentInfo{com.tencent.tmgp.bilibili.blhx/}" drawable="com_tencent_tmgp_bilibili_blhx" />
+    <item component="ComponentInfo{com.tencent.tmgp.bilibili.priconne/}" drawable="com_tencent_tmgp_bilibili_priconne" />
+    <item component="ComponentInfo{com.tencent.tmgp.bilibili.snake/}" drawable="com_tencent_tmgp_bilibili_snake" />
+    <item component="ComponentInfo{com.tencent.tmgp.cf/}" drawable="com_tencent_tmgp_cf" />
+    <item component="ComponentInfo{com.tencent.tmgp.cod/}" drawable="com_tencent_tmgp_cod" />
+    <item component="ComponentInfo{com.tencent.tmgp.codev/}" drawable="com_tencent_tmgp_codev" />
+    <item component="ComponentInfo{com.tencent.tmgp.coslegend/}" drawable="com_tencent_tmgp_coslegend" />
+    <item component="ComponentInfo{com.tencent.tmgp.dfjs/}" drawable="com_tencent_tmgp_dfjs" />
+    <item component="ComponentInfo{com.tencent.tmgp.dfm/}" drawable="com_tencent_tmgp_dfm" />
+    <item component="ComponentInfo{com.tencent.tmgp.dnf/}" drawable="com_tencent_tmgp_dnf" />
+    <item component="ComponentInfo{com.tencent.tmgp.dwrg/}" drawable="com_tencent_tmgp_dwrg" />
+    <item component="ComponentInfo{com.tencent.tmgp.eyou.eygy/}" drawable="com_tencent_tmgp_eyou_eygy" />
+    <item component="ComponentInfo{com.tencent.tmgp.fgo/}" drawable="com_tencent_tmgp_fgo" />
+    <item component="ComponentInfo{com.tencent.tmgp.glkj.lhcx01/}" drawable="com_tencent_tmgp_glkj_lhcx01" />
+    <item component="ComponentInfo{com.tencent.tmgp.habby.danke/}" drawable="com_tencent_tmgp_habby_danke" />
+    <item component="ComponentInfo{com.tencent.tmgp.hhwrxhx/}" drawable="com_tencent_tmgp_hhwrxhx" />
+    <item component="ComponentInfo{com.tencent.tmgp.jumpw/}" drawable="com_tencent_tmgp_jumpw" />
+    <item component="ComponentInfo{com.tencent.tmgp.kaopu.jzpaj/}" drawable="com_tencent_tmgp_kaopu_jzpaj" />
+    <item component="ComponentInfo{com.tencent.tmgp.kurogame.haru/}" drawable="com_tencent_tmgp_kurogame_haru" />
+    <item component="ComponentInfo{com.tencent.tmgp.minitech.miniworld/}" drawable="com_tencent_tmgp_minitech_miniworld" />
+    <item component="ComponentInfo{com.tencent.tmgp.nshm/}" drawable="com_tencent_tmgp_nshm" />
+    <item component="ComponentInfo{com.tencent.tmgp.nz/}" drawable="com_tencent_tmgp_nz" />
+    <item component="ComponentInfo{com.tencent.tmgp.osgamety/}" drawable="com_tencent_tmgp_osgamety" />
+    <item component="ComponentInfo{com.tencent.tmgp.pandadastudio.ninja3/}" drawable="com_tencent_tmgp_pandadastudio_ninja3" />
+    <item component="ComponentInfo{com.tencent.tmgp.party/}" drawable="com_tencent_tmgp_party" />
+    <item component="ComponentInfo{com.tencent.tmgp.projectg/}" drawable="com_tencent_tmgp_projectg" />
+    <item component="ComponentInfo{com.tencent.tmgp.projectsnow/}" drawable="com_tencent_tmgp_projectsnow" />
+    <item component="ComponentInfo{com.tencent.tmgp.pubgmhd/}" drawable="com_tencent_tmgp_pubgmhd" />
+    <item component="ComponentInfo{com.tencent.tmgp.pvz2hdtxyyb/}" drawable="com_tencent_tmgp_pvz2hdtxyyb" />
+    <item component="ComponentInfo{com.tencent.tmgp.qrsj/}" drawable="com_tencent_tmgp_qrsj" />
+    <item component="ComponentInfo{com.tencent.tmgp.seayoo.ggd/}" drawable="com_tencent_tmgp_seayoo_ggd" />
+    <item component="ComponentInfo{com.tencent.tmgp.sgame/}" drawable="com_tencent_tmgp_sgame" />
+    <item component="ComponentInfo{com.tencent.tmgp.sgamece/}" drawable="com_tencent_tmgp_sgamece" />
+    <item component="ComponentInfo{com.tencent.tmgp.sgspad.yyb/}" drawable="com_tencent_tmgp_sgspad_yyb" />
+    <item component="ComponentInfo{com.tencent.tmgp.speedmobile/}" drawable="com_tencent_tmgp_speedmobile" />
+    <item component="ComponentInfo{com.tencent.tmgp.supercell.boombeach/}" drawable="com_tencent_tmgp_supercell_boombeach" />
+    <item component="ComponentInfo{com.tencent.tmgp.supercell.brawlstars/}" drawable="com_tencent_tmgp_supercell_brawlstars" />
+    <item component="ComponentInfo{com.tencent.tmgp.supercell.clashofclans/}" drawable="com_tencent_tmgp_supercell_clashofclans" />
+    <item component="ComponentInfo{com.tencent.tmgp.supercell.clashroyale/}" drawable="com_tencent_tmgp_supercell_clashroyale" />
+    <item component="ComponentInfo{com.tencent.tmgp.wdsj666/}" drawable="com_tencent_tmgp_wdsj666" />
+    <item component="ComponentInfo{com.tencent.tmgp.yongyong.mrzh/}" drawable="com_tencent_tmgp_yongyong_mrzh" />
+    <item component="ComponentInfo{com.tencent.tmgp.yqqskp/}" drawable="com_tencent_tmgp_yqqskp" />
+    <item component="ComponentInfo{com.tencent.tmgp.yysbwp/}" drawable="com_tencent_tmgp_yysbwp" />
+    <item component="ComponentInfo{com.tencent.tmgp.yyslscn/}" drawable="com_tencent_tmgp_yyslscn" />
+    <item component="ComponentInfo{com.tencent.tmgp.yys.zqb/}" drawable="com_tencent_tmgp_yys_zqb" />
+    <item component="ComponentInfo{com.tencent.tmgp.yyzy2/}" drawable="com_tencent_tmgp_yyzy2" />
+    <item component="ComponentInfo{com.tencent.tmgp.zulong.drc/}" drawable="com_tencent_tmgp_zulong_drc" />
+    <item component="ComponentInfo{com.tencent.toaa/}" drawable="com_tencent_toaa" />
+    <item component="ComponentInfo{com.tencent.videolite.android/}" drawable="com_tencent_videolite_android" />
+    <item component="ComponentInfo{com.tencent.wemeet.app/}" drawable="com_tencent_wemeet_app" />
+    <item component="ComponentInfo{com.tencent.weread/}" drawable="com_tencent_weread" />
+    <item component="ComponentInfo{com.tencent.wetype/}" drawable="com_tencent_wetype" />
+    <item component="ComponentInfo{com.tencent.wework/}" drawable="com_tencent_wework" />
+    <item component="ComponentInfo{com.tencent.wlfz/}" drawable="com_tencent_wlfz" />
+    <item component="ComponentInfo{com.tencent.zebra/}" drawable="com_tencent_zebra" />
+    <item component="ComponentInfo{com.teslamotors.tesla/}" drawable="com_teslamotors_tesla" />
+    <item component="ComponentInfo{com.tgc.sky.android/}" drawable="com_tgc_sky_android" />
+    <item component="ComponentInfo{com.tianwen.jjrb/}" drawable="com_tianwen_jjrb" />
+    <item component="ComponentInfo{com.tingfeng.tool/}" drawable="com_tingfeng_tool" />
+    <item component="ComponentInfo{com.tmall.wireless/}" drawable="com_tmall_wireless" />
+    <item component="ComponentInfo{com.tmri.app.main/}" drawable="com_tmri_app_main" />
+    <item component="ComponentInfo{com.tongcheng.android/}" drawable="com_tongcheng_android" />
+    <item component="ComponentInfo{com.topjohnwu.magisk/}" drawable="com_topjohnwu_magisk" />
+    <item component="ComponentInfo{com.tplink.ipc/}" drawable="com_tplink_ipc" />
+    <item component="ComponentInfo{com.tq.he.nearme.gamecenter/}" drawable="com_tq_he_nearme_gamecenter" />
+    <item component="ComponentInfo{com.tudou.tool/}" drawable="com_tudou_tool" />
+    <item component="ComponentInfo{com.tungsten.fcl/}" drawable="com_tungsten_fcl" />
+    <item component="ComponentInfo{com.twitter.android/}" drawable="com_twitter_android" />
+    <item component="ComponentInfo{com.ucmobile/}" drawable="com_ucmobile" />
+    <item component="ComponentInfo{com.ucmobile.lite/}" drawable="com_ucmobile_lite" />
+    <item component="ComponentInfo{com.umetrip.android.msky.app/}" drawable="com_umetrip_android_msky_app" />
+    <item component="ComponentInfo{com.unionpay/}" drawable="com_unionpay" />
+    <item component="ComponentInfo{com.upgadata.bzvirtual/}" drawable="com_upgadata_bzvirtual" />
+    <item component="ComponentInfo{com.upgadata.up7723/}" drawable="com_upgadata_up7723" />
+    <item component="ComponentInfo{com.v2ray.ang/}" drawable="com_v2ray_ang" />
+    <item component="ComponentInfo{com.valvesoftware.android.steam.community/}" drawable="com_valvesoftware_android_steam_community" />
+    <item component="ComponentInfo{com.vgjump.jump/}" drawable="com_vgjump_jump" />
+    <item component="ComponentInfo{com.videogo/}" drawable="com_videogo" />
+    <item component="ComponentInfo{com.vivo.agent/}" drawable="com_vivo_agent" />
+    <item component="ComponentInfo{com.vivo.ai.copilot/}" drawable="com_vivo_ai_copilot" />
+    <item component="ComponentInfo{com.vivo.browser/}" drawable="com_vivo_browser" />
+    <item component="ComponentInfo{com.vivo.childrenmode/}" drawable="com_vivo_childrenmode" />
+    <item component="ComponentInfo{com.vivo.compass/}" drawable="com_vivo_compass" />
+    <item component="ComponentInfo{com.vivo.easyshare/}" drawable="com_vivo_easyshare" />
+    <item component="ComponentInfo{com.vivo.email/}" drawable="com_vivo_email" />
+    <item component="ComponentInfo{com.vivo.familycare.local/}" drawable="com_vivo_familycare_local" />
+    <item component="ComponentInfo{com.vivo.gallery/}" drawable="com_vivo_gallery" />
+    <item component="ComponentInfo{com.vivo.game/}" drawable="com_vivo_game" />
+    <item component="ComponentInfo{com.vivo.health/}" drawable="com_vivo_health" />
+    <item component="ComponentInfo{com.vivo.minigamecenter/}" drawable="com_vivo_minigamecenter" />
+    <item component="ComponentInfo{com.vivo.moodcube/}" drawable="com_vivo_moodcube" />
+    <item component="ComponentInfo{com.vivo.newsreader/}" drawable="com_vivo_newsreader" />
+    <item component="ComponentInfo{com.vivo.smartremote/}" drawable="com_vivo_smartremote" />
+    <item component="ComponentInfo{com.vivo.space/}" drawable="com_vivo_space" />
+    <item component="ComponentInfo{com.vivo.symmetry/}" drawable="com_vivo_symmetry" />
+    <item component="ComponentInfo{com.vivo.tips/}" drawable="com_vivo_tips" />
+    <item component="ComponentInfo{com.vivo.translator/}" drawable="com_vivo_translator" />
+    <item component="ComponentInfo{com.vivo.usercenter/}" drawable="com_vivo_usercenter" />
+    <item component="ComponentInfo{com.vivo.vhome/}" drawable="com_vivo_vhome" />
+    <item component="ComponentInfo{com.vivo.vivoconsole/}" drawable="com_vivo_vivoconsole" />
+    <item component="ComponentInfo{com.vivo.vivotws/}" drawable="com_vivo_vivotws" />
+    <item component="ComponentInfo{com.vivo.vtouch/}" drawable="com_vivo_vtouch" />
+    <item component="ComponentInfo{com.vivo.wallet/}" drawable="com_vivo_wallet" />
+    <item component="ComponentInfo{com.vivo.weather/}" drawable="com_vivo_weather" />
+    <item component="ComponentInfo{com.wandoujia.phoenix2/}" drawable="com_wandoujia_phoenix2" />
+    <item component="ComponentInfo{com.wangc.bill/}" drawable="com_wangc_bill" />
+    <item component="ComponentInfo{com.weico.international/}" drawable="com_weico_international" />
+    <item component="ComponentInfo{com.wg.xvideos.app/}" drawable="com_wg_xvideos_app" />
+    <item component="ComponentInfo{com.wibo.bigbang.ocr/}" drawable="com_wibo_bigbang_ocr" />
+    <item component="ComponentInfo{com.wisedu.cpdaily/}" drawable="com_wisedu_cpdaily" />
+    <item component="ComponentInfo{com.wn.app.np/}" drawable="com_wn_app_np" />
+    <item component="ComponentInfo{com.wsw.cospa/}" drawable="com_wsw_cospa" />
+    <item component="ComponentInfo{com.wuba/}" drawable="com_wuba" />
+    <item component="ComponentInfo{com.wuba.zhuanzhuan/}" drawable="com_wuba_zhuanzhuan" />
+    <item component="ComponentInfo{com.wudaokou.hippo/}" drawable="com_wudaokou_hippo" />
+    <item component="ComponentInfo{com.x7890.shortcutcreator/}" drawable="com_x7890_shortcutcreator" />
+    <item component="ComponentInfo{com.xd.rotaeno.googleplay/}" drawable="com_xd_rotaeno_googleplay" />
+    <item component="ComponentInfo{com.xd.rotaeno.tapcn/}" drawable="com_xd_rotaeno_tapcn" />
+    <item component="ComponentInfo{com.xd.terraria/}" drawable="com_xd_terraria" />
+    <item component="ComponentInfo{com.xhey.xcamera/}" drawable="com_xhey_xcamera" />
+    <item component="ComponentInfo{com.xiachufang/}" drawable="com_xiachufang" />
+    <item component="ComponentInfo{com.xiangtian.pixcake/}" drawable="com_xiangtian_pixcake" />
+    <item component="ComponentInfo{com.xiaoji.egggame/}" drawable="com_xiaoji_egggame" />
+    <item component="ComponentInfo{com.xiaolachuxing.user/}" drawable="com_xiaolachuxing_user" />
+    <item component="ComponentInfo{com.xiaomeng.fategrandorder/}" drawable="com_xiaomeng_fategrandorder" />
+    <item component="ComponentInfo{com.xiaomi.shop/}" drawable="com_xiaomi_shop" />
+    <item component="ComponentInfo{com.xiaomi.smarthome/}" drawable="com_xiaomi_smarthome" />
+    <item component="ComponentInfo{com.ximalaya.ting.android/}" drawable="com_ximalaya_ting_android" />
+    <item component="ComponentInfo{com.ximalaya.ting.lite/}" drawable="com_ximalaya_ting_lite" />
+    <item component="ComponentInfo{com.xingin.xhs/}" drawable="com_xingin_xhs" />
+    <item component="ComponentInfo{com.xjs.ehviewer/}" drawable="com_xjs_ehviewer" />
+    <item component="ComponentInfo{com.xmcy.hykb/}" drawable="com_xmcy_hykb" />
+    <item component="ComponentInfo{com.xs.fm/}" drawable="com_xs_fm" />
+    <item component="ComponentInfo{com.xtuone.android.syllabus/}" drawable="com_xtuone_android_syllabus" />
+    <item component="ComponentInfo{com.xt.retouch/}" drawable="com_xt_retouch" />
+    <item component="ComponentInfo{com.xt.retouchoversea/}" drawable="com_xt_retouchoversea" />
+    <item component="ComponentInfo{com.xunlei.downloadprovider/}" drawable="com_xunlei_downloadprovider" />
+    <item component="ComponentInfo{com.xunmeng.pinduoduo/}" drawable="com_xunmeng_pinduoduo" />
+    <item component="ComponentInfo{com.xuzly.hy.lanerc.app/}" drawable="com_xuzly_hy_lanerc_app" />
+    <item component="ComponentInfo{com.yaya.zone/}" drawable="com_yaya_zone" />
+    <item component="ComponentInfo{com.yek.android.kfc.activitys/}" drawable="com_yek_android_kfc_activitys" />
+    <item component="ComponentInfo{com.ygkj.chelaile.standard/}" drawable="com_ygkj_chelaile_standard" />
+    <item component="ComponentInfo{com.yinxiang/}" drawable="com_yinxiang" />
+    <item component="ComponentInfo{com.yipiao/}" drawable="com_yipiao" />
+    <item component="ComponentInfo{com.yitong.mbank.psbc/}" drawable="com_yitong_mbank_psbc" />
+    <item component="ComponentInfo{com.yiyou.ga/}" drawable="com_yiyou_ga" />
+    <item component="ComponentInfo{com.yoka.sgsol.vivo/}" drawable="com_yoka_sgsol_vivo" />
+    <item component="ComponentInfo{com.yongshi.tenojo.bilibili/}" drawable="com_yongshi_tenojo_bilibili" />
+    <item component="ComponentInfo{com.yongshi.tenojo.mi/}" drawable="com_yongshi_tenojo_mi" />
+    <item component="ComponentInfo{com.yongshi.tenojo.ys/}" drawable="com_yongshi_tenojo_ys" />
+    <item component="ComponentInfo{com.yostarjp.arknights/}" drawable="com_yostarjp_arknights" />
+    <item component="ComponentInfo{com.yostarjp.azurlane/}" drawable="com_yostarjp_azurlane" />
+    <item component="ComponentInfo{com.yostarjp.bluearchive/}" drawable="com_yostarjp_bluearchive" />
+    <item component="ComponentInfo{com.youdao.dict/}" drawable="com_youdao_dict" />
+    <item component="ComponentInfo{com.youdao.translator/}" drawable="com_youdao_translator" />
+    <item component="ComponentInfo{com.youku.phone/}" drawable="com_youku_phone" />
+    <item component="ComponentInfo{com.yuedong.sport/}" drawable="com_yuedong_sport" />
+    <item component="ComponentInfo{com.yueme.itv/}" drawable="com_yueme_itv" />
+    <item component="ComponentInfo{com.yumc.phsuperapp/}" drawable="com_yumc_phsuperapp" />
+    <item component="ComponentInfo{com.yyzy.huawei/}" drawable="com_yyzy_huawei" />
+    <item component="ComponentInfo{com.yyzy.m4399/}" drawable="com_yyzy_m4399" />
+    <item component="ComponentInfo{com.yyzy.mi/}" drawable="com_yyzy_mi" />
+    <item component="ComponentInfo{com.yyzy.nearme.gamecenter/}" drawable="com_yyzy_nearme_gamecenter" />
+    <item component="ComponentInfo{com.yyzy.vivo/}" drawable="com_yyzy_vivo" />
+    <item component="ComponentInfo{com.zhaopin.social/}" drawable="com_zhaopin_social" />
+    <item component="ComponentInfo{com.zhihu.android/}" drawable="com_zhihu_android" />
+    <item component="ComponentInfo{com.zhiliaoapp.musically/}" drawable="com_zhiliaoapp_musically" />
+    <item component="ComponentInfo{com.zidongdianji/}" drawable="com_zidongdianji" />
+    <item component="ComponentInfo{com.zjwh.android.wh.physicalfitness/}" drawable="com_zjwh_android_wh_physicalfitness" />
+    <item component="ComponentInfo{com.zmzx.college.search/}" drawable="com_zmzx_college_search" />
+    <item component="ComponentInfo{com.ztgame.yyzy/}" drawable="com_ztgame_yyzy" />
+    <item component="ComponentInfo{com.ztgame.yyzy.bilibili/}" drawable="com_ztgame_yyzy_bilibili" />
+    <item component="ComponentInfo{com.ztgame.yyzy.yyh/}" drawable="com_ztgame_yyzy_yyh" />
+    <item component="ComponentInfo{com.zulong.drcqd.huawei/}" drawable="com_zulong_drcqd_huawei" />
+    <item component="ComponentInfo{com.zulong.drcqd.nearme.gamecenter/}" drawable="com_zulong_drcqd_nearme_gamecenter" />
+    <item component="ComponentInfo{com.zulong.drcqd.vivo/}" drawable="com_zulong_drcqd_vivo" />
+    <item component="ComponentInfo{com.zulong.drc.bilibili/}" drawable="com_zulong_drc_bilibili" />
+    <item component="ComponentInfo{com.zulong.drc.gw/}" drawable="com_zulong_drc_gw" />
+    <item component="ComponentInfo{com.zulong.drc.m4399/}" drawable="com_zulong_drc_m4399" />
+    <item component="ComponentInfo{com.zulong.drc.mi/}" drawable="com_zulong_drc_mi" />
+    <item component="ComponentInfo{com.zuoyou.center/}" drawable="com_zuoyou_center" />
+    <item component="ComponentInfo{com.zzw.october/}" drawable="com_zzw_october" />
+    <item component="ComponentInfo{ctrip.android.view/}" drawable="ctrip_android_view" />
+    <item component="ComponentInfo{cyou.joiplay.joiplay/}" drawable="cyou_joiplay_joiplay" />
+    <item component="ComponentInfo{dji.mimo/}" drawable="dji_mimo" />
+    <item component="ComponentInfo{free.tube.premium.mariodev.tuber/}" drawable="free_tube_premium_mariodev_tuber" />
+    <item component="ComponentInfo{gov.pianzong.androidnga/}" drawable="gov_pianzong_androidnga" />
+    <item component="ComponentInfo{hello.litiaotiao.app/}" drawable="hello_litiaotiao_app" />
+    <item component="ComponentInfo{hk.alipay.wallet/}" drawable="hk_alipay_wallet" />
+    <item component="ComponentInfo{info.muge.appshare/}" drawable="info_muge_appshare" />
+    <item component="ComponentInfo{io.legado.app.release/}" drawable="io_legado_app_release" />
+    <item component="ComponentInfo{io.vi.hypertheme/}" drawable="io_vi_hypertheme" />
+    <item component="ComponentInfo{io.wallpaperengine.weclient/}" drawable="io_wallpaperengine_weclient" />
+    <item component="ComponentInfo{jp.co.craftegg.band/}" drawable="jp_co_craftegg_band" />
+    <item component="ComponentInfo{jp.co.cygames.princessconnectredive/}" drawable="jp_co_cygames_princessconnectredive" />
+    <item component="ComponentInfo{jp.co.cygames.shadowverse/}" drawable="jp_co_cygames_shadowverse" />
+    <item component="ComponentInfo{jp.co.cygames.umamusume/}" drawable="jp_co_cygames_umamusume" />
+    <item component="ComponentInfo{jp.co.hit.point.nekoatsume2/}" drawable="jp_co_hit_point_nekoatsume2" />
+    <item component="ComponentInfo{jp.co.sony.ips.portalapp/}" drawable="jp_co_sony_ips_portalapp" />
+    <item component="ComponentInfo{jp.ensemble.kamitsubakicity/}" drawable="jp_ensemble_kamitsubakicity" />
+    <item component="ComponentInfo{jp.konami.masterduel/}" drawable="jp_konami_masterduel" />
+    <item component="ComponentInfo{jp.naver.line.android/}" drawable="jp_naver_line_android" />
+    <item component="ComponentInfo{jp.pxv.android/}" drawable="jp_pxv_android" />
+    <item component="ComponentInfo{lcbjq.oppopretmp.nearme.gamecenter/}" drawable="lcbjq_oppopretmp_nearme_gamecenter" />
+    <item component="ComponentInfo{li.songe.gkd/}" drawable="li_songe_gkd" />
+    <item component="ComponentInfo{mark.via/}" drawable="mark_via" />
+    <item component="ComponentInfo{mark.via.gp/}" drawable="mark_via_gp" />
+    <item component="ComponentInfo{me.ele/}" drawable="me_ele" />
+    <item component="ComponentInfo{me.piebridge.brevent/}" drawable="me_piebridge_brevent" />
+    <item component="ComponentInfo{me.rosuh.easywatermark/}" drawable="me_rosuh_easywatermark" />
+    <item component="ComponentInfo{me.weishu.kernelsu/}" drawable="me_weishu_kernelsu" />
+    <item component="ComponentInfo{moe.low.arc/}" drawable="moe_low_arc" />
+    <item component="ComponentInfo{moe.shizuku.privileged.api/}" drawable="moe_shizuku_privileged_api" />
+    <item component="ComponentInfo{moe.tarsin.ehviewer/}" drawable="moe_tarsin_ehviewer" />
+    <item component="ComponentInfo{net.afdian.afdian/}" drawable="net_afdian_afdian" />
+    <item component="ComponentInfo{net.hpoi/}" drawable="net_hpoi" />
+    <item component="ComponentInfo{net.huanci.hsj/}" drawable="net_huanci_hsj" />
+    <item component="ComponentInfo{net.huanci.hsjpro/}" drawable="net_huanci_hsjpro" />
+    <item component="ComponentInfo{net.xmind.doughnut/}" drawable="net_xmind_doughnut" />
+    <item component="ComponentInfo{notion.id/}" drawable="notion_id" />
+    <item component="ComponentInfo{org.flos.phira/}" drawable="org_flos_phira" />
+    <item component="ComponentInfo{org.lsposed.lspatch/}" drawable="org_lsposed_lspatch" />
+    <item component="ComponentInfo{org.lsposed.manager/}" drawable="org_lsposed_manager" />
+    <item component="ComponentInfo{org.moegirl.moegirlview/}" drawable="org_moegirl_moegirlview" />
+    <item component="ComponentInfo{org.mozilla.firefox/}" drawable="org_mozilla_firefox" />
+    <item component="ComponentInfo{org.mozilla.focus/}" drawable="org_mozilla_focus" />
+    <item component="ComponentInfo{org.ppsspp.ppsspp/}" drawable="org_ppsspp_ppsspp" />
+    <item component="ComponentInfo{org.telegram.group/}" drawable="org_telegram_group" />
+    <item component="ComponentInfo{org.telegram.messenger/}" drawable="org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger.web/}" drawable="org_telegram_messenger_web" />
+    <item component="ComponentInfo{org.thunderdog.challegram/}" drawable="org_thunderdog_challegram" />
+    <item component="ComponentInfo{org.tvp.kirikiri2.free.10309/}" drawable="org_tvp_kirikiri2_free_10309" />
+    <item component="ComponentInfo{org.zwanoo.android.speedtest/}" drawable="org_zwanoo_android_speedtest" />
+    <item component="ComponentInfo{player.normal.np/}" drawable="player_normal_np" />
+    <item component="ComponentInfo{pxb7.com/}" drawable="pxb7_com" />
+    <item component="ComponentInfo{ru.zdevs.zarchiver/}" drawable="ru_zdevs_zarchiver" />
+    <item component="ComponentInfo{samsung.agc.gcam84/}" drawable="samsung_agc_gcam84" />
+    <item component="ComponentInfo{sulefi.atools.plus/}" drawable="sulefi_atools_plus" />
+    <item component="ComponentInfo{sulefi.atools.promax/}" drawable="sulefi_atools_promax" />
+    <item component="ComponentInfo{top.jtmonster.jhentai/}" drawable="top_jtmonster_jhentai" />
+    <item component="ComponentInfo{top.nkbe.npatch/}" drawable="top_nkbe_npatch" />
+    <item component="ComponentInfo{tv.acfundanmaku.video/}" drawable="tv_acfundanmaku_video" />
+    <item component="ComponentInfo{tv.danmaku.bili/}" drawable="tv_danmaku_bili" />
+    <item component="ComponentInfo{tv.danmaku.bilibilihd/}" drawable="tv_danmaku_bilibilihd" />
+    <item component="ComponentInfo{tv.twitch.android.app/}" drawable="tv_twitch_android_app" />
+    <item component="ComponentInfo{tw.com.gamer.android.animad/}" drawable="tw_com_gamer_android_animad" />
+    <item component="ComponentInfo{tw.com.iwplay.ht/}" drawable="tw_com_iwplay_ht" />
+    <item component="ComponentInfo{tw.nekomimi.nekogram/}" drawable="tw_nekomimi_nekogram" />
+    <item component="ComponentInfo{tw.sonet.princessconnect/}" drawable="tw_sonet_princessconnect" />
+    <item component="ComponentInfo{uni.unig1dd0aae/}" drawable="uni_unig1dd0aae" />
+    <item component="ComponentInfo{vz.com/}" drawable="vz_com" />
+    <item component="ComponentInfo{youqu.android.todesk/}" drawable="youqu_android_todesk" />
+    <item component="ComponentInfo{yuanqiqishi.game.huawei/}" drawable="yuanqiqishi_game_huawei" />
+    <item component="ComponentInfo{yuanqiqishi.game.mz/}" drawable="yuanqiqishi_game_mz" />
+    <item component="ComponentInfo{yyc.xk/}" drawable="yyc_xk" />
+    <item component="ComponentInfo{yyc.xk.core/}" drawable="yyc_xk_core" />
+    <item component="ComponentInfo{zfwl1999.oppopretmp.nearme.gamecenter/}" drawable="zfwl1999_oppopretmp_nearme_gamecenter" />
 </resources>
