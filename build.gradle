@@ -2,6 +2,9 @@
 
 buildscript {
     repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         google()
         mavenCentral()
     }
@@ -12,9 +15,12 @@ buildscript {
 
 allprojects {
     repositories {
-        mavenCentral()
-        google()
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
         maven { url "https://jitpack.io" }
+        google()
+        mavenCentral()
         flatDir { dirs '../nanoiconpack/libs' }
     }
 }
